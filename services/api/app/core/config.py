@@ -1,0 +1,48 @@
+"""Application configuration via environment variables."""
+from typing import List
+from pydantic import field_validator
+from pydantic_settings import BaseSettings, SettingsConfigDict
+
+
+class Settings(BaseSettings):
+    model_config = SettingsConfigDict(env_file=".env", extra="ignore")
+
+    ENVIRONMENT: str = "development"
+    SECRET_KEY: str = "change-me-in-production"
+    ACCESS_TOKEN_EXPIRE_MINUTES: int = 60 * 24  # 24h
+
+    # Database
+    DATABASE_URL: str = "sqlite+aiosqlite:///./vds.db"
+
+    # Redis
+    REDIS_URL: str = "redis://localhost:6379/0"
+
+    # LLM providers
+    OPENAI_API_KEY: str = ""
+    ANTHROPIC_API_KEY: str = ""
+    DEFAULT_LLM_PROVIDER: str = "openai"  # openai | anthropic
+    DEFAULT_LLM_MODEL: str = "gpt-4o"
+
+    # CORS
+    CORS_ORIGINS: List[str] = ["http://localhost:3000"]
+
+    @field_validator("CORS_ORIGINS", mode="before")
+    @classmethod
+    def parse_cors(cls, v):
+        if isinstance(v, str):
+            return [i.strip() for i in v.split(",")]
+        return v
+
+    # Feature flags
+    ENABLE_AGENT_BUILDER: bool = True
+    ENABLE_MODELING: bool = True
+    ENABLE_WRITEBACK: bool = False  # Disabled until governance is fully wired
+
+    # Connector credentials (runtime-fetched from vault; these are placeholders)
+    SALESFORCE_CLIENT_ID: str = ""
+    SALESFORCE_CLIENT_SECRET: str = ""
+    STRIPE_API_KEY: str = ""
+    SNOWFLAKE_ACCOUNT: str = ""
+
+
+settings = Settings()
