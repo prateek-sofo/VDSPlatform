@@ -35,8 +35,22 @@ Otherwise proceed with documented assumptions. Batch all questions in ONE messag
 Return a JSON object with keys:
   problem_statement, decision_maker, kpis, hypotheses, assumptions,
   data_needs, analysis_plan, checkpoint_required
+
+IMPORTANT: You must return strictly valid JSON. Do NOT include trailing commas. Ensure all keys are strings.
 """
 
+
+from pydantic import BaseModel
+
+class ProblemFramerResponse(BaseModel):
+    problem_statement: str
+    decision_maker: str
+    kpis: dict
+    hypotheses: list[str]
+    assumptions: list[str]
+    data_needs: dict
+    analysis_plan: list[dict]
+    checkpoint_required: bool
 
 class ProblemFramerAgent(BaseAgent):
     async def run(self, question: str) -> dict:
@@ -44,8 +58,9 @@ class ProblemFramerAgent(BaseAgent):
         result = await self.llm.json_chat(
             messages=[{"role": "user", "content": question}],
             system_prompt=f"{SYSTEM_PROMPT}\n\nDOMAIN CONTEXT: {domain_ctx}",
+            response_schema=ProblemFramerResponse,
             temperature=0.2,
-            max_tokens=3000,
+            max_tokens=8192,
         )
         return {
             "problem_statement": result.get("problem_statement", ""),

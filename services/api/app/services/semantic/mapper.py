@@ -53,7 +53,7 @@ class SemanticMapper:
     def __init__(self, connector_id: Optional[str] = None, job_id: Optional[str] = None):
         self.connector_id = connector_id
         self.job_id = job_id
-        self.llm = LLMClient()
+        self.llm = LLMClient(agent_id="mapper")
 
     async def map_for_session(self, question: str, domain: str) -> dict:
         """Run mapping for a VDS session — ground the NL question + profile available entities."""

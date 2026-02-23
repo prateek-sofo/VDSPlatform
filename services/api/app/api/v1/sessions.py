@@ -10,6 +10,7 @@ from fastapi.responses import StreamingResponse
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
 from pydantic import BaseModel
+from datetime import datetime
 from typing import Optional
 import json
 import structlog
@@ -44,7 +45,7 @@ class SessionResponse(BaseModel):
     goal: Optional[str]
     plan: Optional[dict]
     current_step_index: int
-    created_at: str
+    created_at: datetime
 
     class Config:
         from_attributes = True
@@ -55,7 +56,7 @@ class MessageResponse(BaseModel):
     role: str
     agent: Optional[str]
     content: str
-    created_at: str
+    created_at: datetime
 
     class Config:
         from_attributes = True
@@ -67,7 +68,7 @@ class ArtifactResponse(BaseModel):
     name: str
     content: dict
     agent: Optional[str]
-    created_at: str
+    created_at: datetime
 
     class Config:
         from_attributes = True

@@ -6,6 +6,7 @@ from fastapi import APIRouter, Depends, HTTPException, status, BackgroundTasks
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
 from pydantic import BaseModel
+from datetime import datetime
 from typing import Optional
 import structlog
 
@@ -29,9 +30,9 @@ class ConnectorResponse(BaseModel):
     name: str
     connector_type: str
     status: str
-    last_sync_at: Optional[str]
+    last_sync_at: Optional[datetime]
     last_error: Optional[str]
-    created_at: str
+    created_at: datetime
 
     class Config:
         from_attributes = True
@@ -43,8 +44,8 @@ class SyncRunResponse(BaseModel):
     rows_read: int
     rows_written: int
     rows_failed: int
-    started_at: str
-    finished_at: Optional[str]
+    started_at: datetime
+    finished_at: Optional[datetime]
     profile_report: Optional[dict]
     semantic_pack: Optional[dict]
 

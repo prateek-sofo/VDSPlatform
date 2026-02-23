@@ -20,8 +20,16 @@ class Settings(BaseSettings):
     # LLM providers
     OPENAI_API_KEY: str = ""
     ANTHROPIC_API_KEY: str = ""
-    DEFAULT_LLM_PROVIDER: str = "openai"  # openai | anthropic
-    DEFAULT_LLM_MODEL: str = "gpt-4o"
+    GEMINI_API_KEY: str = "AIzaSyAFhCe30tUt7ql-H5nPiNYSmjZoAGGe3pE"
+    DEFAULT_LLM_PROVIDER: str = "gemini"  # openai | anthropic | gemini
+    DEFAULT_LLM_MODEL: str = "gemini-2.5-flash"
+    
+    # Model routing by agent task
+    MODEL_ROUTING: dict = {
+        "problem_framer": {"provider": "gemini", "model": "gemini-2.5-pro"},
+        "mapper": {"provider": "gemini", "model": "gemini-2.5-flash"},
+        "default": {"provider": "gemini", "model": "gemini-2.5-flash"}
+    }
 
     # CORS
     CORS_ORIGINS: List[str] = ["http://localhost:3000"]

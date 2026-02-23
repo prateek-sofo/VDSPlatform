@@ -94,7 +94,7 @@ class SupervisorAgent:
                         domain=self.domain,
                         context=self.context,
                         connector_ids=self.connector_ids,
-                        llm=self.llm,
+                        llm=LLMClient(agent_id=step_id),
                     )
                     result = await agent.run(self.question)
 

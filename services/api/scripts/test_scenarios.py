@@ -61,7 +61,7 @@ class ScenarioRunner:
         self.results = []
 
     async def run_all(self):
-        async with httpx.AsyncClient(timeout=120.0) as client:
+        async with httpx.AsyncClient(timeout=120.0, follow_redirects=True) as client:
             print("\n🧪 VDS Platform — Test Scenarios\n" + "=" * 50)
 
             # Health check
@@ -105,7 +105,7 @@ class ScenarioRunner:
 
             table_name = fname.replace(".json", "")
             # Create connector
-            r = await client.post(f"{self.base_url}/connectors", json={
+            r = await client.post(f"{self.base_url}/connectors/", json={
                 "name": table_name.replace("_", " ").title(),
                 "connector_type": "csv",
                 "config": {"table_name": table_name, "file_content": "seed_inline"},
@@ -116,7 +116,7 @@ class ScenarioRunner:
                 connector_ids.append(cid)
                 print(f"  ✅ {table_name} ({len(data)} records) → connector {cid[:8]}")
             else:
-                print(f"  ❌ Failed to create connector for {fname}: {r.text[:100]}")
+                print(f"  ❌ Failed to create connector for {fname}: {r.status_code} - {r.text}")
 
         return connector_ids
 
@@ -128,7 +128,7 @@ class ScenarioRunner:
         print(f"   Question: {scenario['question'][:80]}...")
 
         # Create session
-        r = await client.post(f"{self.base_url}/sessions", json={
+        r = await client.post(f"{self.base_url}/sessions/", json={
             "question": scenario["question"],
             "domain": scenario["domain"],
             "autonomy_level": scenario["autonomy"],
@@ -136,7 +136,7 @@ class ScenarioRunner:
         }, headers=self.headers)
 
         if r.status_code != 201:
-            print(f"   ❌ Session creation failed: {r.text[:200]}")
+            print(f"   ❌ Session creation failed: {r.status_code} - {r.text}")
             self.results.append({"scenario": name, "status": "FAILED", "reason": r.text[:100]})
             return
 
