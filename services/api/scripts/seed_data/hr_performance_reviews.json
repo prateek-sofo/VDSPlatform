@@ -1,0 +1,1426 @@
+[
+  {
+    "id": "2841f04c-5183-4376-b609-e78584bc4f41",
+    "employee_id": "06a0b9e8-a228-40d1-915f-2aee3a11187b",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "57c44185-61ef-4d90-a293-529dd1f87edb",
+    "engagement_score": 1.3
+  },
+  {
+    "id": "35b30c3d-c4ad-4925-91a5-92be8b298a6a",
+    "employee_id": "f715d42e-95f3-458d-9c3c-171a10043af0",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "f72c7033-f8d0-4f1e-a4f1-e6e6beaddf62",
+    "engagement_score": 3.2
+  },
+  {
+    "id": "4ce9fedf-c0d9-44f4-8e2d-3cc0794e1ece",
+    "employee_id": "7e6faa0d-fdb6-4bdb-842c-53557cd23a3c",
+    "period": "2025-Annual",
+    "rating": 2,
+    "reviewer_id": "347b8d37-4228-4991-8ad2-08e44841f55d",
+    "engagement_score": 1.6
+  },
+  {
+    "id": "2f80d1af-44cc-4ca9-adb6-c4a0617936de",
+    "employee_id": "ac5dcbb8-9baf-4d9b-a8a3-40e877842e82",
+    "period": "2025-Annual",
+    "rating": 5,
+    "reviewer_id": "c622b456-a65e-45f5-a5f1-c713ccbab510",
+    "engagement_score": 4.4
+  },
+  {
+    "id": "c9579613-02dd-44f8-85ad-2369a51cdd83",
+    "employee_id": "3810fd59-ca10-4877-ba3f-e56bed800f1e",
+    "period": "2025-Annual",
+    "rating": 1,
+    "reviewer_id": "fc3181f7-e228-495b-a320-682ca158042d",
+    "engagement_score": 3.7
+  },
+  {
+    "id": "744c1fba-dc39-46f2-a2f3-b02a22b75963",
+    "employee_id": "ed9c151d-691c-48ec-9d69-8a94d528e383",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "0438311b-9b96-4636-b5f2-94b2b4ee7c3e",
+    "engagement_score": 1.3
+  },
+  {
+    "id": "f989069e-dea1-4e4f-b786-05a2cf066cd4",
+    "employee_id": "4219944a-5c43-44d4-8500-64843dce7338",
+    "period": "2025-Annual",
+    "rating": 1,
+    "reviewer_id": "ad4febd3-1468-4843-87ed-e27b656a5870",
+    "engagement_score": 4.2
+  },
+  {
+    "id": "63e6d33d-4671-4213-8001-efdaa7cb5a0f",
+    "employee_id": "b801a3ad-ba90-4fd3-b8e7-abd163045a82",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "8e8beea3-d0d3-430b-9461-47c3b5c818a4",
+    "engagement_score": 4.3
+  },
+  {
+    "id": "2eab48f6-034f-494c-bd22-221114cff56f",
+    "employee_id": "412ff4c4-9bb2-4205-b8ed-06fdbc5ffd7f",
+    "period": "2025-Annual",
+    "rating": 2,
+    "reviewer_id": "347b8d37-4228-4991-8ad2-08e44841f55d",
+    "engagement_score": 1.7
+  },
+  {
+    "id": "171427df-8523-4f7e-acb4-a927b3e38419",
+    "employee_id": "1df1d0b3-beeb-4c6b-96af-ef9913547fc4",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "8e8beea3-d0d3-430b-9461-47c3b5c818a4",
+    "engagement_score": 1.5
+  },
+  {
+    "id": "b4dddf8c-c1c1-4ae5-800c-25c618baddae",
+    "employee_id": "0b12247b-6390-47b6-9074-d167a16a79bb",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "38637267-0b93-4e21-bfaf-d7b0bcf88262",
+    "engagement_score": 4.1
+  },
+  {
+    "id": "d7a6622f-9cf9-4da5-8749-de549afd1d96",
+    "employee_id": "5b0371b6-e102-4ae2-a9ec-610eb41d25d9",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "a698dae1-1270-4007-88a5-4d0183d8e059",
+    "engagement_score": 4.4
+  },
+  {
+    "id": "67edf96c-8ee9-46e7-9dcf-7478165ad603",
+    "employee_id": "5fd67c2d-fda1-440b-bed0-2478c5be7ab1",
+    "period": "2025-Annual",
+    "rating": 5,
+    "reviewer_id": "57c44185-61ef-4d90-a293-529dd1f87edb",
+    "engagement_score": 4.0
+  },
+  {
+    "id": "056f2543-93a9-45b4-bbb4-285cae537065",
+    "employee_id": "393ae179-ad6c-4225-b511-e6031eb25756",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "028e96e9-64dc-4e02-b68d-cc160c3bf04b",
+    "engagement_score": 4.3
+  },
+  {
+    "id": "6759b742-399b-4f79-8e04-1be5a415bc67",
+    "employee_id": "11a4744c-50a8-4b41-913c-f8af34634719",
+    "period": "2025-Annual",
+    "rating": 2,
+    "reviewer_id": "57c44185-61ef-4d90-a293-529dd1f87edb",
+    "engagement_score": 3.8
+  },
+  {
+    "id": "27aa3f00-4339-41d2-8b80-e3c3027ec426",
+    "employee_id": "2d8e48ec-8821-408a-926b-adc3b87cf536",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "b4f6f8b7-cbca-4634-b94e-780db5706390",
+    "engagement_score": 4.7
+  },
+  {
+    "id": "ab2e46e8-e763-480d-a7f5-bf47a07d5015",
+    "employee_id": "a6bab9e4-6f54-4d29-a4a8-6446bc5ff317",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "992f743b-3ca1-4f34-bf14-5389746fa745",
+    "engagement_score": 2.2
+  },
+  {
+    "id": "51d771fc-dc13-48b0-a508-fea91b026611",
+    "employee_id": "00320ca4-427d-4337-873c-f6360bd2707c",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "dbc927cb-31f6-4830-b4d9-24d102400cf9",
+    "engagement_score": 3.2
+  },
+  {
+    "id": "187e86d3-cbd9-45cc-98d8-1e77f608de0e",
+    "employee_id": "483a253e-55e1-4f82-bdbb-4317e16084ba",
+    "period": "2025-Annual",
+    "rating": 2,
+    "reviewer_id": "315897e1-6af8-494c-a160-0ea3602efc11",
+    "engagement_score": 3.6
+  },
+  {
+    "id": "ae203f1e-be83-48c0-bca9-6098cf2d53b2",
+    "employee_id": "c25c0f7f-fcdc-48e7-b023-9f3f4a0e9e8a",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "a698dae1-1270-4007-88a5-4d0183d8e059",
+    "engagement_score": 1.5
+  },
+  {
+    "id": "8047e059-07c7-469b-a496-00892eab4f82",
+    "employee_id": "316c9874-0e8e-4494-a79b-b17eb6ea90b9",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "a698dae1-1270-4007-88a5-4d0183d8e059",
+    "engagement_score": 3.5
+  },
+  {
+    "id": "1adb71ec-9711-4022-9ff3-d6e46fbe173a",
+    "employee_id": "fbca1afa-8bdc-4091-9b4a-b37e338fff55",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "dbc927cb-31f6-4830-b4d9-24d102400cf9",
+    "engagement_score": 4.4
+  },
+  {
+    "id": "ba5a24b6-9c57-48d7-bccc-cd927e3ab0fe",
+    "employee_id": "5c34d7cb-ccf2-48a4-a1a6-7819fe283c3e",
+    "period": "2025-Annual",
+    "rating": 2,
+    "reviewer_id": "0438311b-9b96-4636-b5f2-94b2b4ee7c3e",
+    "engagement_score": 3.9
+  },
+  {
+    "id": "10d4a7c1-6fb1-4375-b58c-428067c56b04",
+    "employee_id": "cb6ecdc2-8e01-4637-bbf7-20a6c38946c0",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "b4f6f8b7-cbca-4634-b94e-780db5706390",
+    "engagement_score": 4.0
+  },
+  {
+    "id": "c44af65c-39a4-4fd6-ae71-d8e0067f1d2f",
+    "employee_id": "49a8d2c6-b123-4e26-b67e-2783f8381adc",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "fc3181f7-e228-495b-a320-682ca158042d",
+    "engagement_score": 2.0
+  },
+  {
+    "id": "fa83c314-7dd5-4f93-b6b7-add67e93560d",
+    "employee_id": "5b666bc7-5a48-42ba-962b-822897c26914",
+    "period": "2025-Annual",
+    "rating": 1,
+    "reviewer_id": "c029d26c-41d1-430d-b53c-72b0e2f2c01b",
+    "engagement_score": 1.6
+  },
+  {
+    "id": "4ae89f4c-afff-4d23-a76d-dd2ec32981fc",
+    "employee_id": "75abaf44-28ce-4c39-8a8b-33665502b987",
+    "period": "2025-Annual",
+    "rating": 1,
+    "reviewer_id": "f72c7033-f8d0-4f1e-a4f1-e6e6beaddf62",
+    "engagement_score": 2.1
+  },
+  {
+    "id": "cfc6994e-a147-4944-b53e-88446fc1c225",
+    "employee_id": "b4023e59-d708-4175-9cef-32b2bf2f37b1",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "8e8beea3-d0d3-430b-9461-47c3b5c818a4",
+    "engagement_score": 3.7
+  },
+  {
+    "id": "8b731772-d99d-4d06-b83a-204f88b7dec5",
+    "employee_id": "22f8875d-67d2-452b-b915-229747f01cd8",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "38637267-0b93-4e21-bfaf-d7b0bcf88262",
+    "engagement_score": 2.8
+  },
+  {
+    "id": "83ac4bea-bc63-4516-a9b5-bf04c527b234",
+    "employee_id": "403e7003-37f4-4243-8f6b-a3c8bc12555b",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "f72c7033-f8d0-4f1e-a4f1-e6e6beaddf62",
+    "engagement_score": 1.5
+  },
+  {
+    "id": "f9a2aa0b-4720-4b8d-9a12-21e719e49ce5",
+    "employee_id": "ac6c9da0-7a4b-49f2-a003-c1049d548df6",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "dbc927cb-31f6-4830-b4d9-24d102400cf9",
+    "engagement_score": 2.1
+  },
+  {
+    "id": "4b101325-283d-4c7b-9cfe-593037398832",
+    "employee_id": "aee5cb45-3697-4220-bbfe-3f4d412a5ec0",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "992f743b-3ca1-4f34-bf14-5389746fa745",
+    "engagement_score": 4.9
+  },
+  {
+    "id": "5eb588b6-9abd-47e4-a7d7-7849f5a7d75f",
+    "employee_id": "742fcc7e-fd30-48f0-88bf-fd99358494cf",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "38637267-0b93-4e21-bfaf-d7b0bcf88262",
+    "engagement_score": 4.1
+  },
+  {
+    "id": "57531340-41eb-43e4-ada3-486c1720a4ce",
+    "employee_id": "0b39448c-0ce2-4874-a4c5-43c19814b351",
+    "period": "2025-Annual",
+    "rating": 5,
+    "reviewer_id": "b4f6f8b7-cbca-4634-b94e-780db5706390",
+    "engagement_score": 4.6
+  },
+  {
+    "id": "5a9aac98-9208-466a-93cb-16978ec75d0e",
+    "employee_id": "2092fad9-58b5-4ac1-b659-600a18db507e",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "9470a13d-5178-4c1c-86ef-09003a44612f",
+    "engagement_score": 3.3
+  },
+  {
+    "id": "ac25d69e-8335-4960-8819-139528bfa35f",
+    "employee_id": "fa25e090-02ac-4ee7-ac62-b7ce2bc0abfc",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "57c44185-61ef-4d90-a293-529dd1f87edb",
+    "engagement_score": 3.1
+  },
+  {
+    "id": "b4d07504-fd78-47fb-9e90-56496d09b36b",
+    "employee_id": "aa036c16-a334-4cc8-ba39-ebf7b4f3b9f1",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "bb5de62f-9bb4-4d3b-9fba-8607a10bc890",
+    "engagement_score": 4.2
+  },
+  {
+    "id": "204921fc-659a-48a0-83b3-8d4a6239c6dd",
+    "employee_id": "fe978b11-4aac-4f49-9905-076a33bb571e",
+    "period": "2025-Annual",
+    "rating": 5,
+    "reviewer_id": "c029d26c-41d1-430d-b53c-72b0e2f2c01b",
+    "engagement_score": 3.4
+  },
+  {
+    "id": "9183ef7d-884a-42d5-8f33-ecfee10fc109",
+    "employee_id": "f42788f6-8dda-4c11-ae89-f16f090da4c3",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "b4f6f8b7-cbca-4634-b94e-780db5706390",
+    "engagement_score": 2.3
+  },
+  {
+    "id": "02d62866-8702-4096-89b7-b9faec37b62a",
+    "employee_id": "18b84c2c-8c4f-4431-8696-b2469cf9e354",
+    "period": "2025-Annual",
+    "rating": 2,
+    "reviewer_id": "bb5de62f-9bb4-4d3b-9fba-8607a10bc890",
+    "engagement_score": 4.7
+  },
+  {
+    "id": "054c4184-3268-4c85-be9d-001c2b9338ab",
+    "employee_id": "a01b7096-28c0-43c1-8f05-b308ab130a7a",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "028e96e9-64dc-4e02-b68d-cc160c3bf04b",
+    "engagement_score": 2.4
+  },
+  {
+    "id": "cb63f283-ef5b-48e6-a9cb-89d0df2171aa",
+    "employee_id": "076bf6f7-6070-4b35-80a1-7837e0ea7f74",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "f72c7033-f8d0-4f1e-a4f1-e6e6beaddf62",
+    "engagement_score": 4.3
+  },
+  {
+    "id": "5f4e2589-abce-42a2-a4a1-145fb87504ce",
+    "employee_id": "c9738530-e8c2-445e-84fe-4e229028a53c",
+    "period": "2025-Annual",
+    "rating": 2,
+    "reviewer_id": "c029d26c-41d1-430d-b53c-72b0e2f2c01b",
+    "engagement_score": 3.8
+  },
+  {
+    "id": "cdb860fc-ae1e-4001-af3c-8305cae41301",
+    "employee_id": "c7b6156b-8f26-42ec-830f-dd347238f88d",
+    "period": "2025-Annual",
+    "rating": 1,
+    "reviewer_id": "992f743b-3ca1-4f34-bf14-5389746fa745",
+    "engagement_score": 3.7
+  },
+  {
+    "id": "da55f6fe-1726-40d6-b829-c5aed350b63a",
+    "employee_id": "b00f2456-6411-453e-baf0-ac722238ea25",
+    "period": "2025-Annual",
+    "rating": 5,
+    "reviewer_id": "c622b456-a65e-45f5-a5f1-c713ccbab510",
+    "engagement_score": 2.9
+  },
+  {
+    "id": "68388b48-2ab8-4bcd-a4da-acd558123c07",
+    "employee_id": "3fb32a78-883c-4dbd-90b0-a58d96c1089d",
+    "period": "2025-Annual",
+    "rating": 2,
+    "reviewer_id": "b4f6f8b7-cbca-4634-b94e-780db5706390",
+    "engagement_score": 4.9
+  },
+  {
+    "id": "303c56c2-39c4-4768-8857-afae451efd2d",
+    "employee_id": "56456b50-7403-45b2-98a7-a6692a2f19af",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "ad4febd3-1468-4843-87ed-e27b656a5870",
+    "engagement_score": 3.1
+  },
+  {
+    "id": "4f1aaf01-dcae-4b25-b171-d3be046d5eab",
+    "employee_id": "b0ad862a-a2dc-4c5b-bc9a-1c302e2c2f17",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "c622b456-a65e-45f5-a5f1-c713ccbab510",
+    "engagement_score": 4.2
+  },
+  {
+    "id": "a7f0566c-daa3-49de-a9a4-5220142e78d3",
+    "employee_id": "b7d97761-26b9-4bfb-89c0-30fc00980a88",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "fc3181f7-e228-495b-a320-682ca158042d",
+    "engagement_score": 2.1
+  },
+  {
+    "id": "61cf7ddf-4ca7-46d9-8b49-9ea911ff1fa1",
+    "employee_id": "44e78a8c-2b3c-4653-ba7c-d5506ec067fd",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "a698dae1-1270-4007-88a5-4d0183d8e059",
+    "engagement_score": 1.7
+  },
+  {
+    "id": "cc3750ab-1dc2-4a21-8420-4c716474e1f5",
+    "employee_id": "3feb7c04-fa72-4a27-a2c9-ae83abce313e",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "f72c7033-f8d0-4f1e-a4f1-e6e6beaddf62",
+    "engagement_score": 1.9
+  },
+  {
+    "id": "a0279b94-b155-419c-8c14-d5a4edff30fe",
+    "employee_id": "e5efb4de-1a12-46fa-a765-d087c0c49006",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "315897e1-6af8-494c-a160-0ea3602efc11",
+    "engagement_score": 4.2
+  },
+  {
+    "id": "a982f178-88b8-404a-a87c-64db59a67de8",
+    "employee_id": "dc1f7f5f-b589-4516-9b7c-d18573e1aff9",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "ad4febd3-1468-4843-87ed-e27b656a5870",
+    "engagement_score": 1.7
+  },
+  {
+    "id": "5cb9a043-2415-40a9-afaa-52894b8e0f62",
+    "employee_id": "fd5ef11d-f7ec-4cdb-9e0e-6a86cb75569e",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "c029d26c-41d1-430d-b53c-72b0e2f2c01b",
+    "engagement_score": 2.1
+  },
+  {
+    "id": "56cebb53-8f99-4dec-a63b-95ebdc146a48",
+    "employee_id": "80261cfd-fac7-483d-87ca-b01d60e98387",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "34dfca9c-2899-4437-afdc-e38aae4056fb",
+    "engagement_score": 1.2
+  },
+  {
+    "id": "93d59abe-bb30-4192-acb7-9fe00ef02e33",
+    "employee_id": "835df67c-7dd3-481b-a326-5cbaa91ca83a",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "347b8d37-4228-4991-8ad2-08e44841f55d",
+    "engagement_score": 3.4
+  },
+  {
+    "id": "ea985c3a-8e12-4f81-baeb-22ff4c3af6e5",
+    "employee_id": "a9fd9d8c-f743-4954-ae7b-c0d6a6899563",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "f72c7033-f8d0-4f1e-a4f1-e6e6beaddf62",
+    "engagement_score": 2.4
+  },
+  {
+    "id": "8647f502-c391-4a16-aff3-77d20b8dce19",
+    "employee_id": "f4ba7f1e-a2ff-4e99-9186-85b58daa6b4e",
+    "period": "2025-Annual",
+    "rating": 1,
+    "reviewer_id": "dbc927cb-31f6-4830-b4d9-24d102400cf9",
+    "engagement_score": 2.6
+  },
+  {
+    "id": "24db7e58-397d-492f-a1c3-be642458a43e",
+    "employee_id": "eb05ea2c-7a01-41ea-bb53-3c8005635d8d",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "315897e1-6af8-494c-a160-0ea3602efc11",
+    "engagement_score": 2.6
+  },
+  {
+    "id": "92ba42e6-7b5a-423b-be6d-e5065da199f1",
+    "employee_id": "ef79db58-13ea-4146-8fed-2769aea51390",
+    "period": "2025-Annual",
+    "rating": 2,
+    "reviewer_id": "bb5de62f-9bb4-4d3b-9fba-8607a10bc890",
+    "engagement_score": 4.2
+  },
+  {
+    "id": "5d7ad921-98dd-4d43-82aa-1a2f72e09a46",
+    "employee_id": "eba9d51f-74df-4cc0-b631-ddc1f8f0bcca",
+    "period": "2025-Annual",
+    "rating": 5,
+    "reviewer_id": "0438311b-9b96-4636-b5f2-94b2b4ee7c3e",
+    "engagement_score": 2.0
+  },
+  {
+    "id": "e0277bd6-8019-4d2a-b4e3-6a46125c4622",
+    "employee_id": "f5c2021e-1580-4bd3-b724-0a3e726a2847",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "c029d26c-41d1-430d-b53c-72b0e2f2c01b",
+    "engagement_score": 3.5
+  },
+  {
+    "id": "9eadb5b4-4577-4222-b7ea-0e6571024653",
+    "employee_id": "dd5eba17-8559-4ee6-878f-f6e01b1f2a7d",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "992f743b-3ca1-4f34-bf14-5389746fa745",
+    "engagement_score": 4.1
+  },
+  {
+    "id": "66dd2e74-33aa-479e-ba47-4822ccc994f8",
+    "employee_id": "3282d4a3-f209-44b4-b1e4-2acb4c9df912",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "b4f6f8b7-cbca-4634-b94e-780db5706390",
+    "engagement_score": 1.2
+  },
+  {
+    "id": "13270a9c-f4fd-4689-ae81-e5969328a9ad",
+    "employee_id": "0afc8248-9809-411f-b9a2-3a36b56cd673",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "347b8d37-4228-4991-8ad2-08e44841f55d",
+    "engagement_score": 4.5
+  },
+  {
+    "id": "d0fc8478-0d0b-46a7-a896-2f5a9bf0c7b0",
+    "employee_id": "8b0659ba-ab24-4381-9109-746898cc10f2",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "eaeba979-06b3-429d-9035-e38d272e6835",
+    "engagement_score": 3.2
+  },
+  {
+    "id": "c574f0e7-b164-4161-b0ad-2fd52ff27dec",
+    "employee_id": "fa7fb225-1bbb-4875-aca9-5d5e09350d9e",
+    "period": "2025-Annual",
+    "rating": 5,
+    "reviewer_id": "34dfca9c-2899-4437-afdc-e38aae4056fb",
+    "engagement_score": 1.2
+  },
+  {
+    "id": "04cb859a-3d7d-4935-b708-f223c4f61305",
+    "employee_id": "9f3e05e3-d6fe-42d6-b5ea-b55a7270cb4f",
+    "period": "2025-Annual",
+    "rating": 5,
+    "reviewer_id": "c622b456-a65e-45f5-a5f1-c713ccbab510",
+    "engagement_score": 4.2
+  },
+  {
+    "id": "fa4a0e72-5bcd-4ec7-be8f-33e609664d0a",
+    "employee_id": "67956c9e-7ff1-4718-822e-768599cb9042",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "ad4febd3-1468-4843-87ed-e27b656a5870",
+    "engagement_score": 2.5
+  },
+  {
+    "id": "ef68e8f7-5a31-4510-926a-7bb1b696f5d9",
+    "employee_id": "8763d7e9-79bd-43ad-8ccb-01eba90023c2",
+    "period": "2025-Annual",
+    "rating": 2,
+    "reviewer_id": "bb5de62f-9bb4-4d3b-9fba-8607a10bc890",
+    "engagement_score": 1.7
+  },
+  {
+    "id": "e5ed1ce9-f785-43e9-9c5c-95688d3753da",
+    "employee_id": "97278170-5d2e-4684-9a5c-453631d6db97",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "9470a13d-5178-4c1c-86ef-09003a44612f",
+    "engagement_score": 4.4
+  },
+  {
+    "id": "e5770134-f499-4794-9075-e38b6a203a44",
+    "employee_id": "50aa4839-de56-4001-8e86-6bb262a9cd6b",
+    "period": "2025-Annual",
+    "rating": 5,
+    "reviewer_id": "f72c7033-f8d0-4f1e-a4f1-e6e6beaddf62",
+    "engagement_score": 2.9
+  },
+  {
+    "id": "c7e92ab0-540b-42ed-af7c-94f25b6efbf6",
+    "employee_id": "791c291f-90f8-40ba-bb84-0c16d21d69c7",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "c622b456-a65e-45f5-a5f1-c713ccbab510",
+    "engagement_score": 4.5
+  },
+  {
+    "id": "67875a4e-ab6b-41ae-9495-a23704e502e3",
+    "employee_id": "bd5f60b9-ed1f-455e-8d3c-5c03601c21c4",
+    "period": "2025-Annual",
+    "rating": 1,
+    "reviewer_id": "eaeba979-06b3-429d-9035-e38d272e6835",
+    "engagement_score": 1.5
+  },
+  {
+    "id": "4527c1f7-1007-4297-870d-f6dcca8070e7",
+    "employee_id": "e74d2c20-5264-4e54-8d7d-98b61470d1b3",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "34dfca9c-2899-4437-afdc-e38aae4056fb",
+    "engagement_score": 2.1
+  },
+  {
+    "id": "a7841d54-2e23-45ff-b6fd-3dcdf48b3828",
+    "employee_id": "f54e7a27-4bef-4f6b-8853-6acb9bdcc220",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "0438311b-9b96-4636-b5f2-94b2b4ee7c3e",
+    "engagement_score": 2.6
+  },
+  {
+    "id": "f88168a3-58ca-4ae9-a258-13841a516cc9",
+    "employee_id": "8d1a039c-3a51-4e6a-a32a-5fa852f7bdfa",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "bb5de62f-9bb4-4d3b-9fba-8607a10bc890",
+    "engagement_score": 3.5
+  },
+  {
+    "id": "ab592ca7-efa6-4413-b5bf-91a67be9d7d3",
+    "employee_id": "d032e490-18c2-497b-9ac9-a7d629a1cd5e",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "c622b456-a65e-45f5-a5f1-c713ccbab510",
+    "engagement_score": 1.9
+  },
+  {
+    "id": "08061851-a29c-4a00-b7cd-4587fe093d38",
+    "employee_id": "34791d68-2171-4baf-9d40-a3b240a0a330",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "9470a13d-5178-4c1c-86ef-09003a44612f",
+    "engagement_score": 2.0
+  },
+  {
+    "id": "f852b31e-abad-4090-8136-4ad3e15ab76a",
+    "employee_id": "b035bd4b-a985-4bb0-8873-bfa224d0efb2",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "fc3181f7-e228-495b-a320-682ca158042d",
+    "engagement_score": 4.5
+  },
+  {
+    "id": "99832cf8-bf87-489f-b6bc-71fff8fb7e87",
+    "employee_id": "0b630775-cb9f-4154-a935-8a8f954b9c15",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "b4f6f8b7-cbca-4634-b94e-780db5706390",
+    "engagement_score": 1.5
+  },
+  {
+    "id": "4a03a74d-0511-4768-8f5b-5471dfaa89dd",
+    "employee_id": "b3d5ba9a-a181-4ff8-828a-657d34bedb94",
+    "period": "2025-Annual",
+    "rating": 1,
+    "reviewer_id": "028e96e9-64dc-4e02-b68d-cc160c3bf04b",
+    "engagement_score": 1.9
+  },
+  {
+    "id": "6a07641e-75da-460f-912c-db1328bda583",
+    "employee_id": "8112acc0-2e7c-46e6-bcc0-e7dd9bbb961c",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "0438311b-9b96-4636-b5f2-94b2b4ee7c3e",
+    "engagement_score": 3.1
+  },
+  {
+    "id": "1f054e10-1638-4859-a64b-7f510d8a45e8",
+    "employee_id": "a3108308-8ce5-46f5-aee6-b94165de0821",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "34dfca9c-2899-4437-afdc-e38aae4056fb",
+    "engagement_score": 4.6
+  },
+  {
+    "id": "d758f8f6-c3e2-4d56-9b34-4cf6e2bf10a7",
+    "employee_id": "055ec042-9997-455c-a363-8713b530c939",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "347b8d37-4228-4991-8ad2-08e44841f55d",
+    "engagement_score": 1.8
+  },
+  {
+    "id": "419f4b42-ae2d-4a5f-ae4f-345dcdb0e7e7",
+    "employee_id": "54f24fa6-24cf-4889-86e7-1912634e763a",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "b4f6f8b7-cbca-4634-b94e-780db5706390",
+    "engagement_score": 2.7
+  },
+  {
+    "id": "699eb7be-4cf4-4efe-af40-73e53fa234c9",
+    "employee_id": "0e1c1adc-4213-4313-b124-3a5d5ae9304e",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "347b8d37-4228-4991-8ad2-08e44841f55d",
+    "engagement_score": 1.1
+  },
+  {
+    "id": "7a166e2d-9b6b-4c49-a062-a389fd0c9947",
+    "employee_id": "8997f44c-2d10-4604-a73b-099abbc26dcf",
+    "period": "2025-Annual",
+    "rating": 2,
+    "reviewer_id": "34dfca9c-2899-4437-afdc-e38aae4056fb",
+    "engagement_score": 2.3
+  },
+  {
+    "id": "389a5a68-3f98-4bc3-8de6-4619e8cca9ce",
+    "employee_id": "c76b9b12-df51-4739-9596-5021eb85118d",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "b4f6f8b7-cbca-4634-b94e-780db5706390",
+    "engagement_score": 2.9
+  },
+  {
+    "id": "82792bd4-e429-4abb-ac4e-aef96ee2064e",
+    "employee_id": "ea98de86-921b-4a64-b45a-6cc104ae52f1",
+    "period": "2025-Annual",
+    "rating": 2,
+    "reviewer_id": "8e8beea3-d0d3-430b-9461-47c3b5c818a4",
+    "engagement_score": 3.2
+  },
+  {
+    "id": "db31aa36-9f8c-41c2-93e1-a6840c7963e2",
+    "employee_id": "c1290465-acce-4285-8d43-9b6a2bd6c74a",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "34dfca9c-2899-4437-afdc-e38aae4056fb",
+    "engagement_score": 1.7
+  },
+  {
+    "id": "c422151f-a85e-462c-b37d-734d8f08fda2",
+    "employee_id": "4caf3b24-ac9e-418e-9abf-3258a8dce80b",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "0438311b-9b96-4636-b5f2-94b2b4ee7c3e",
+    "engagement_score": 2.5
+  },
+  {
+    "id": "517ab127-a67f-454a-86ae-9bf045b5e9aa",
+    "employee_id": "84e139e6-4c87-4b4c-a9e2-0dc03fda3308",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "a698dae1-1270-4007-88a5-4d0183d8e059",
+    "engagement_score": 1.8
+  },
+  {
+    "id": "2b52b519-064e-4f10-a3b2-8d371f784fd6",
+    "employee_id": "9f488922-2765-47bc-afe5-1b63b39fb199",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "9470a13d-5178-4c1c-86ef-09003a44612f",
+    "engagement_score": 1.7
+  },
+  {
+    "id": "fe1bae2d-14e3-4ba3-9b82-faebe1bfba2e",
+    "employee_id": "794636d9-4935-4a17-9d7a-c0be4b23d99a",
+    "period": "2025-Annual",
+    "rating": 5,
+    "reviewer_id": "0438311b-9b96-4636-b5f2-94b2b4ee7c3e",
+    "engagement_score": 4.0
+  },
+  {
+    "id": "06b7ddfd-58d8-44fc-9a23-1f2a3c53dba1",
+    "employee_id": "3d8f5066-250d-4a17-bfb8-7a1edca8f17a",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "eaeba979-06b3-429d-9035-e38d272e6835",
+    "engagement_score": 4.4
+  },
+  {
+    "id": "d882b6b4-4ccf-429e-8ae2-d31f5009a479",
+    "employee_id": "fb710958-e606-4684-af11-292d3af4cfc3",
+    "period": "2025-Annual",
+    "rating": 2,
+    "reviewer_id": "c029d26c-41d1-430d-b53c-72b0e2f2c01b",
+    "engagement_score": 1.5
+  },
+  {
+    "id": "80d8d570-d662-4f68-87d4-bd28ddca1557",
+    "employee_id": "81c1a873-a3d6-4140-b37f-d494a83a6f34",
+    "period": "2025-Annual",
+    "rating": 2,
+    "reviewer_id": "eaeba979-06b3-429d-9035-e38d272e6835",
+    "engagement_score": 3.2
+  },
+  {
+    "id": "9a08c703-25be-4cf3-bfc7-035c15ebedf1",
+    "employee_id": "783de0b7-9767-4a3d-be30-f43b4cbfeba5",
+    "period": "2025-Annual",
+    "rating": 5,
+    "reviewer_id": "c622b456-a65e-45f5-a5f1-c713ccbab510",
+    "engagement_score": 1.8
+  },
+  {
+    "id": "4e26a476-4d6f-4580-849d-87bdf55fd988",
+    "employee_id": "da532552-d0d7-4706-a940-10ffd4f2c682",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "a698dae1-1270-4007-88a5-4d0183d8e059",
+    "engagement_score": 4.8
+  },
+  {
+    "id": "e49f632f-c393-47cb-a1fc-af34072779b1",
+    "employee_id": "8f6aac2d-eb0f-453f-9d23-520530e88ca3",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "dbc927cb-31f6-4830-b4d9-24d102400cf9",
+    "engagement_score": 2.1
+  },
+  {
+    "id": "fa8c0415-20c4-4f3b-81f4-45d4032a1be7",
+    "employee_id": "a84b4cbc-a308-439e-b6f4-b662f0accd47",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "8e8beea3-d0d3-430b-9461-47c3b5c818a4",
+    "engagement_score": 3.1
+  },
+  {
+    "id": "2569a5c3-bad5-438c-8cd6-7fb4d87d07a4",
+    "employee_id": "5d2bee07-e348-4752-881d-5a44810c144e",
+    "period": "2025-Annual",
+    "rating": 5,
+    "reviewer_id": "a698dae1-1270-4007-88a5-4d0183d8e059",
+    "engagement_score": 1.1
+  },
+  {
+    "id": "ea8af0d9-82e6-4b81-aae1-02f6e720cbdc",
+    "employee_id": "0986d9b8-003b-4c37-8522-0e70e0bff816",
+    "period": "2025-Annual",
+    "rating": 1,
+    "reviewer_id": "0438311b-9b96-4636-b5f2-94b2b4ee7c3e",
+    "engagement_score": 4.1
+  },
+  {
+    "id": "a674be81-5c0b-424c-ad3b-99922bcdb8dd",
+    "employee_id": "a6e4848e-3f83-4507-8054-6c28bb2d0b66",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "0438311b-9b96-4636-b5f2-94b2b4ee7c3e",
+    "engagement_score": 4.8
+  },
+  {
+    "id": "7f6204b9-9c81-41e3-bf6b-30ec07094b21",
+    "employee_id": "021a3af9-91b6-4005-809e-0eac77fee0e7",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "8e8beea3-d0d3-430b-9461-47c3b5c818a4",
+    "engagement_score": 2.9
+  },
+  {
+    "id": "7cb3dba7-65cd-43e9-977e-e4447eeca4a6",
+    "employee_id": "ea228bd2-d2c3-4313-9482-0b2b35ecee61",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "f72c7033-f8d0-4f1e-a4f1-e6e6beaddf62",
+    "engagement_score": 1.0
+  },
+  {
+    "id": "dec4e885-6dcf-4d1f-be32-61c52a2712a9",
+    "employee_id": "ab193b23-0c7b-4cd5-bfdb-d91dcd28b1c7",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "028e96e9-64dc-4e02-b68d-cc160c3bf04b",
+    "engagement_score": 4.3
+  },
+  {
+    "id": "935decbc-69a1-4f50-81be-a68b72293482",
+    "employee_id": "cb9b81bd-2b85-4a8c-950b-94b3e5626e71",
+    "period": "2025-Annual",
+    "rating": 2,
+    "reviewer_id": "a698dae1-1270-4007-88a5-4d0183d8e059",
+    "engagement_score": 2.3
+  },
+  {
+    "id": "35cc158d-f397-4f75-b873-3ea49ca21d4e",
+    "employee_id": "e36ba696-cea0-4ed5-9e8d-5daaa41c166c",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "f72c7033-f8d0-4f1e-a4f1-e6e6beaddf62",
+    "engagement_score": 2.0
+  },
+  {
+    "id": "32bf3a5d-b0e5-46c3-a088-bc416063ad26",
+    "employee_id": "6f7c5a15-a56e-4f3b-83a9-9cc76551ae44",
+    "period": "2025-Annual",
+    "rating": 2,
+    "reviewer_id": "992f743b-3ca1-4f34-bf14-5389746fa745",
+    "engagement_score": 4.3
+  },
+  {
+    "id": "edca98d4-a088-4cc6-b08c-266d9e0c7678",
+    "employee_id": "64d25199-4091-48bb-b395-d78ff32ddeb9",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "9470a13d-5178-4c1c-86ef-09003a44612f",
+    "engagement_score": 4.6
+  },
+  {
+    "id": "94deca55-167c-4211-87d5-629196e56a88",
+    "employee_id": "90914465-62f2-4324-b79e-6790c9e4939d",
+    "period": "2025-Annual",
+    "rating": 5,
+    "reviewer_id": "f72c7033-f8d0-4f1e-a4f1-e6e6beaddf62",
+    "engagement_score": 4.9
+  },
+  {
+    "id": "7c8e7c33-1568-4d97-ac21-250825f2a93e",
+    "employee_id": "225e5ba4-d525-4550-a57b-ac4bfd966daf",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "fc3181f7-e228-495b-a320-682ca158042d",
+    "engagement_score": 1.1
+  },
+  {
+    "id": "d7111065-3eb5-49d0-bd2a-e70227e809f6",
+    "employee_id": "d286dae6-16eb-4402-9d16-78605224279b",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "a698dae1-1270-4007-88a5-4d0183d8e059",
+    "engagement_score": 4.0
+  },
+  {
+    "id": "2fcf72e3-9ba1-49c2-925f-31ec307f85f0",
+    "employee_id": "67cd3af2-039b-422e-a618-09d8b091e58c",
+    "period": "2025-Annual",
+    "rating": 2,
+    "reviewer_id": "34dfca9c-2899-4437-afdc-e38aae4056fb",
+    "engagement_score": 1.1
+  },
+  {
+    "id": "5a946643-60a6-4c28-982b-3ac16d0c57be",
+    "employee_id": "66c208ee-f5c3-45fb-8a85-e7e2518078df",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "028e96e9-64dc-4e02-b68d-cc160c3bf04b",
+    "engagement_score": 3.7
+  },
+  {
+    "id": "9b70a067-5026-4f02-9813-315cfe9774c7",
+    "employee_id": "9af38982-6fa5-4f3a-9ea2-62ecec8cdfbc",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "f72c7033-f8d0-4f1e-a4f1-e6e6beaddf62",
+    "engagement_score": 2.0
+  },
+  {
+    "id": "1224025f-c30c-427a-864a-58585123d1ed",
+    "employee_id": "1b27f9a8-75c4-4a14-8f35-6addde9ac7b4",
+    "period": "2025-Annual",
+    "rating": 2,
+    "reviewer_id": "38637267-0b93-4e21-bfaf-d7b0bcf88262",
+    "engagement_score": 1.5
+  },
+  {
+    "id": "aa885060-b1a5-4825-bb57-8615bc5da146",
+    "employee_id": "5a36cef1-30d3-4735-962c-3885e434f343",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "fc3181f7-e228-495b-a320-682ca158042d",
+    "engagement_score": 3.9
+  },
+  {
+    "id": "571335fc-451b-478f-a902-e8a39d23f213",
+    "employee_id": "33972302-cd41-4e0f-aeec-65158caccef7",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "a698dae1-1270-4007-88a5-4d0183d8e059",
+    "engagement_score": 2.0
+  },
+  {
+    "id": "0ce7f99a-ca22-477c-b16c-be83c0be20bd",
+    "employee_id": "09682538-4031-4a70-ac52-22f2d5099656",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "b4f6f8b7-cbca-4634-b94e-780db5706390",
+    "engagement_score": 3.0
+  },
+  {
+    "id": "0b2a29c5-8354-44d6-90c2-017c678f8237",
+    "employee_id": "4d6d2e6e-7883-48a6-b4cf-e85909071b37",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "8e8beea3-d0d3-430b-9461-47c3b5c818a4",
+    "engagement_score": 3.3
+  },
+  {
+    "id": "6426bae4-c91a-4531-a8f3-c8b53129a082",
+    "employee_id": "ee134221-77c3-474d-923c-7f47c9966d71",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "9470a13d-5178-4c1c-86ef-09003a44612f",
+    "engagement_score": 4.2
+  },
+  {
+    "id": "69a40dc9-6d46-4202-9b4c-4de7a337c259",
+    "employee_id": "8e1dec20-62b0-4585-887c-88347a9efaa6",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "0438311b-9b96-4636-b5f2-94b2b4ee7c3e",
+    "engagement_score": 2.3
+  },
+  {
+    "id": "8f8bd761-4cd1-4c40-a172-77e724fff717",
+    "employee_id": "a2eab7ae-064f-4536-9344-b3d459853cbe",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "38637267-0b93-4e21-bfaf-d7b0bcf88262",
+    "engagement_score": 2.2
+  },
+  {
+    "id": "1b59d0cb-a790-48b1-9801-5f75519229d1",
+    "employee_id": "23669021-7e18-4f51-b7d9-5e0df8aa6bec",
+    "period": "2025-Annual",
+    "rating": 1,
+    "reviewer_id": "c029d26c-41d1-430d-b53c-72b0e2f2c01b",
+    "engagement_score": 2.7
+  },
+  {
+    "id": "d7e3e005-12de-4268-bd87-f0ebb0205eb1",
+    "employee_id": "12423651-7851-4c81-b891-2784b28798a3",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "57c44185-61ef-4d90-a293-529dd1f87edb",
+    "engagement_score": 4.5
+  },
+  {
+    "id": "23990a78-bcce-4c99-a1bc-33ff0134dc09",
+    "employee_id": "422d462b-0b78-46b1-b7e6-c74b15a3fd68",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "992f743b-3ca1-4f34-bf14-5389746fa745",
+    "engagement_score": 2.6
+  },
+  {
+    "id": "4365f0ce-4483-4fc8-a43c-1edc76ca184b",
+    "employee_id": "67bda124-37c5-42f1-a41a-ce5bfc879a63",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "38637267-0b93-4e21-bfaf-d7b0bcf88262",
+    "engagement_score": 2.6
+  },
+  {
+    "id": "cda0991f-1940-4d5b-9c88-cfe3d84a2d1e",
+    "employee_id": "0b5a46a9-c7ca-4cf1-a1b5-7a023708f56e",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "eaeba979-06b3-429d-9035-e38d272e6835",
+    "engagement_score": 4.5
+  },
+  {
+    "id": "d02c558d-bd93-4f41-a08b-5571d1a24604",
+    "employee_id": "956d78ff-d1a2-4d70-bd07-4a54f052e490",
+    "period": "2025-Annual",
+    "rating": 2,
+    "reviewer_id": "57c44185-61ef-4d90-a293-529dd1f87edb",
+    "engagement_score": 1.8
+  },
+  {
+    "id": "39c30894-8589-4570-a1dc-88bad44ed7c0",
+    "employee_id": "df2fdfd2-1d21-431b-8db8-2c1f625e8923",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "b4f6f8b7-cbca-4634-b94e-780db5706390",
+    "engagement_score": 1.1
+  },
+  {
+    "id": "2c8bcbbb-eeb3-4f44-bb99-c1f0812fd93c",
+    "employee_id": "5884e69e-08e7-4e99-a48d-ac16aa0fa3ba",
+    "period": "2025-Annual",
+    "rating": 1,
+    "reviewer_id": "dbc927cb-31f6-4830-b4d9-24d102400cf9",
+    "engagement_score": 4.6
+  },
+  {
+    "id": "44d89abe-63a0-4937-b02b-6fe4aa4c9594",
+    "employee_id": "fc7e2de6-73f6-4057-a0ca-6024c78a0cf3",
+    "period": "2025-Annual",
+    "rating": 5,
+    "reviewer_id": "bb5de62f-9bb4-4d3b-9fba-8607a10bc890",
+    "engagement_score": 1.8
+  },
+  {
+    "id": "3b5bc75b-350a-44ea-b9f5-6ca2e47e3bc7",
+    "employee_id": "473b01e7-9935-402e-a71f-c673f0050ec5",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "eaeba979-06b3-429d-9035-e38d272e6835",
+    "engagement_score": 3.4
+  },
+  {
+    "id": "614b8150-85f1-42f1-9565-d8ec11010b44",
+    "employee_id": "95f24dd0-a537-43b6-bfd8-d67f4b375f61",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "38637267-0b93-4e21-bfaf-d7b0bcf88262",
+    "engagement_score": 4.8
+  },
+  {
+    "id": "2528d8f3-ebab-4b12-8dfa-5ec92eb5f4dd",
+    "employee_id": "d6572192-27e8-4871-91c7-0bcda8a134e6",
+    "period": "2025-Annual",
+    "rating": 2,
+    "reviewer_id": "f72c7033-f8d0-4f1e-a4f1-e6e6beaddf62",
+    "engagement_score": 2.1
+  },
+  {
+    "id": "78738237-ac63-47e2-bc7a-a7be18c87689",
+    "employee_id": "b787956d-54ad-4542-8eca-b2df51f7a4fa",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "fc3181f7-e228-495b-a320-682ca158042d",
+    "engagement_score": 3.8
+  },
+  {
+    "id": "8c900b6b-2df5-48e7-877e-fb1c36ec7861",
+    "employee_id": "d9fa1855-75e3-45b5-be77-aeafeef71bec",
+    "period": "2025-Annual",
+    "rating": 2,
+    "reviewer_id": "347b8d37-4228-4991-8ad2-08e44841f55d",
+    "engagement_score": 3.1
+  },
+  {
+    "id": "8f8401e3-714b-452c-bb53-f3c4e67a8284",
+    "employee_id": "cde5ff82-c570-4b72-957f-f2545f90f335",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "9470a13d-5178-4c1c-86ef-09003a44612f",
+    "engagement_score": 4.7
+  },
+  {
+    "id": "8d007477-92d6-4642-b1aa-55fa1e0a5b3c",
+    "employee_id": "17a574d2-1932-4611-9e8f-25c4908323aa",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "ad4febd3-1468-4843-87ed-e27b656a5870",
+    "engagement_score": 1.4
+  },
+  {
+    "id": "733c16dd-2646-463f-b2d9-f8aed426c9cb",
+    "employee_id": "33b87fc2-5837-4624-803a-cad07ae13f0a",
+    "period": "2025-Annual",
+    "rating": 5,
+    "reviewer_id": "38637267-0b93-4e21-bfaf-d7b0bcf88262",
+    "engagement_score": 1.3
+  },
+  {
+    "id": "ff023174-5fe5-4dbc-9b8c-526199cc10c0",
+    "employee_id": "b66a7041-a145-4e62-93c4-3147e0e5b55a",
+    "period": "2025-Annual",
+    "rating": 2,
+    "reviewer_id": "fc3181f7-e228-495b-a320-682ca158042d",
+    "engagement_score": 5.0
+  },
+  {
+    "id": "e02ff936-1cbb-4d83-bfc7-a87d8102574c",
+    "employee_id": "6dc73eef-b8be-4f28-a6e4-9d8225e903b6",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "347b8d37-4228-4991-8ad2-08e44841f55d",
+    "engagement_score": 2.6
+  },
+  {
+    "id": "4c0aef33-5524-4c74-afcc-44535c1a0d32",
+    "employee_id": "7490e460-3386-48e4-92b1-d72eb4bf2820",
+    "period": "2025-Annual",
+    "rating": 5,
+    "reviewer_id": "a698dae1-1270-4007-88a5-4d0183d8e059",
+    "engagement_score": 1.8
+  },
+  {
+    "id": "b312b2d0-1d56-4194-a907-7e300f9f87b9",
+    "employee_id": "a4e7fe07-a9c0-4686-b2d0-e65f48d75b4c",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "34dfca9c-2899-4437-afdc-e38aae4056fb",
+    "engagement_score": 3.2
+  },
+  {
+    "id": "4b62770e-8088-4c51-88ae-13a64c76c1b5",
+    "employee_id": "b5cfa65a-8b57-46de-aa34-f0fdbee79ea8",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "a698dae1-1270-4007-88a5-4d0183d8e059",
+    "engagement_score": 3.6
+  },
+  {
+    "id": "66f81d28-faf9-49eb-b19a-8ff6639fbe62",
+    "employee_id": "747fd3c4-a04d-489e-98f9-764d7bfdb331",
+    "period": "2025-Annual",
+    "rating": 5,
+    "reviewer_id": "38637267-0b93-4e21-bfaf-d7b0bcf88262",
+    "engagement_score": 1.0
+  },
+  {
+    "id": "09cdb08f-6966-467f-a940-99cae2e388c5",
+    "employee_id": "0568504c-84c4-420e-8198-9872d9992fbc",
+    "period": "2025-Annual",
+    "rating": 2,
+    "reviewer_id": "c622b456-a65e-45f5-a5f1-c713ccbab510",
+    "engagement_score": 4.0
+  },
+  {
+    "id": "fe977f43-e3b5-4784-9455-59567d04e71f",
+    "employee_id": "69a2d792-2db9-46d0-ab68-2a06c817c3a8",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "a698dae1-1270-4007-88a5-4d0183d8e059",
+    "engagement_score": 2.2
+  },
+  {
+    "id": "a35e697f-cd77-421e-b8bd-63a47ffab9e9",
+    "employee_id": "1ca6cbd8-2294-4863-ab69-43d59648d1a1",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "34dfca9c-2899-4437-afdc-e38aae4056fb",
+    "engagement_score": 3.1
+  },
+  {
+    "id": "cd39ef40-3d23-43c5-9913-624400d73dc4",
+    "employee_id": "1c8bb8c1-070e-4faf-a60f-533a9f371145",
+    "period": "2025-Annual",
+    "rating": 5,
+    "reviewer_id": "0438311b-9b96-4636-b5f2-94b2b4ee7c3e",
+    "engagement_score": 3.6
+  },
+  {
+    "id": "2c71d449-aede-4b7a-beb5-d1f8a97830fe",
+    "employee_id": "cce57733-2c9d-4553-bb2c-714afa7fd9bc",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "38637267-0b93-4e21-bfaf-d7b0bcf88262",
+    "engagement_score": 1.3
+  },
+  {
+    "id": "142b645a-0474-401d-bdb3-4fd40c36c3e7",
+    "employee_id": "2fdabf1f-867a-4408-b096-a6e452cae0f3",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "8e8beea3-d0d3-430b-9461-47c3b5c818a4",
+    "engagement_score": 2.2
+  },
+  {
+    "id": "7fd87671-a683-4f86-83af-b8dd113f45e3",
+    "employee_id": "ad8885a9-ac47-47e7-af2f-b225217bc840",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "347b8d37-4228-4991-8ad2-08e44841f55d",
+    "engagement_score": 2.5
+  },
+  {
+    "id": "11180f07-c02a-4500-85da-bfd90c98cec2",
+    "employee_id": "7c4eabb3-f395-438d-8de2-a0b29da47a6b",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "57c44185-61ef-4d90-a293-529dd1f87edb",
+    "engagement_score": 1.2
+  },
+  {
+    "id": "b3b725a1-c9a1-4188-ac6c-b6a6e33393ca",
+    "employee_id": "c2d3343e-a9f3-48b6-a37c-444a59ad6c83",
+    "period": "2025-Annual",
+    "rating": 1,
+    "reviewer_id": "315897e1-6af8-494c-a160-0ea3602efc11",
+    "engagement_score": 4.6
+  },
+  {
+    "id": "2358fdca-9b6e-4a1b-af0c-4a85ddb90187",
+    "employee_id": "a04afd45-dddd-4508-ba93-bf8e858f6a4e",
+    "period": "2025-Annual",
+    "rating": 5,
+    "reviewer_id": "bb5de62f-9bb4-4d3b-9fba-8607a10bc890",
+    "engagement_score": 1.6
+  },
+  {
+    "id": "3013f309-3059-4bda-aeb9-05cae2e7791f",
+    "employee_id": "8f9de48a-7a19-4258-a096-5dd3ca999602",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "38637267-0b93-4e21-bfaf-d7b0bcf88262",
+    "engagement_score": 3.4
+  },
+  {
+    "id": "9e4f1b89-70c4-4e11-a405-f1aa17311f6c",
+    "employee_id": "a0bcd863-26b2-48a6-9522-27c7044e08f8",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "57c44185-61ef-4d90-a293-529dd1f87edb",
+    "engagement_score": 4.8
+  },
+  {
+    "id": "d551f41f-a7d3-40b2-8638-498593af19a4",
+    "employee_id": "61358c3f-3e0d-4a00-91c3-ee8fdd7d4f7f",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "34dfca9c-2899-4437-afdc-e38aae4056fb",
+    "engagement_score": 1.7
+  },
+  {
+    "id": "152e647a-0951-4f1c-bcd2-d8d7fbbe8412",
+    "employee_id": "08fc870c-e0f7-4740-889f-f06bd89569bd",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "f72c7033-f8d0-4f1e-a4f1-e6e6beaddf62",
+    "engagement_score": 2.2
+  },
+  {
+    "id": "5ae7128c-d33c-4ba7-98ad-26a9ae78a532",
+    "employee_id": "0b71f596-587c-4767-a59b-fecfa3092f7e",
+    "period": "2025-Annual",
+    "rating": 5,
+    "reviewer_id": "dbc927cb-31f6-4830-b4d9-24d102400cf9",
+    "engagement_score": 1.4
+  },
+  {
+    "id": "c8671122-b094-4791-aadb-081cbd06a9ad",
+    "employee_id": "1a604760-2a2a-4a0d-8080-967b1d32841d",
+    "period": "2025-Annual",
+    "rating": 2,
+    "reviewer_id": "ad4febd3-1468-4843-87ed-e27b656a5870",
+    "engagement_score": 3.8
+  },
+  {
+    "id": "7718587b-2d3d-48e1-a0c9-6d931a78a56c",
+    "employee_id": "5af4b222-4a65-4a36-988f-c3156235ffd3",
+    "period": "2025-Annual",
+    "rating": 5,
+    "reviewer_id": "992f743b-3ca1-4f34-bf14-5389746fa745",
+    "engagement_score": 4.9
+  },
+  {
+    "id": "d3721ec0-51a3-48a1-8dc3-871987412922",
+    "employee_id": "40a1bc1c-5fdb-456c-add1-dea2e2f8ef05",
+    "period": "2025-Annual",
+    "rating": 2,
+    "reviewer_id": "a698dae1-1270-4007-88a5-4d0183d8e059",
+    "engagement_score": 2.7
+  },
+  {
+    "id": "9ec1adcb-e614-4ae1-bcae-3149dfdb149c",
+    "employee_id": "21318af1-a6c8-4b08-ab36-4750246ac825",
+    "period": "2025-Annual",
+    "rating": 2,
+    "reviewer_id": "a698dae1-1270-4007-88a5-4d0183d8e059",
+    "engagement_score": 3.2
+  },
+  {
+    "id": "7dc96679-5a3f-4e06-b7b2-bfe8b94d5795",
+    "employee_id": "07084996-8e01-46c1-8f09-d818f15fceba",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "992f743b-3ca1-4f34-bf14-5389746fa745",
+    "engagement_score": 1.7
+  },
+  {
+    "id": "1a6be8d5-04d2-4ed8-845b-0008b9c221b5",
+    "employee_id": "d0781aa7-b930-4dd9-a5fe-dc270e627475",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "ad4febd3-1468-4843-87ed-e27b656a5870",
+    "engagement_score": 2.3
+  },
+  {
+    "id": "bcee2926-a748-47fb-b250-fab51c82b9a9",
+    "employee_id": "c1b4c981-9714-4c54-bcaf-4378446ad42e",
+    "period": "2025-Annual",
+    "rating": 2,
+    "reviewer_id": "c029d26c-41d1-430d-b53c-72b0e2f2c01b",
+    "engagement_score": 2.4
+  },
+  {
+    "id": "a4419079-e3ee-4b5a-ab1f-5a144b56788e",
+    "employee_id": "c1379ecf-0d8f-483c-8440-86e727788a28",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "b4f6f8b7-cbca-4634-b94e-780db5706390",
+    "engagement_score": 3.9
+  },
+  {
+    "id": "b829c086-24a1-47bf-b883-0122756a8d75",
+    "employee_id": "16ea502b-30d4-4f83-974c-7f68b99e9c2d",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "c029d26c-41d1-430d-b53c-72b0e2f2c01b",
+    "engagement_score": 3.0
+  },
+  {
+    "id": "283b8d82-462e-4ee9-81b4-e9e2ed545e58",
+    "employee_id": "079ca703-1821-479e-8c59-6af8aead2779",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "9470a13d-5178-4c1c-86ef-09003a44612f",
+    "engagement_score": 4.3
+  },
+  {
+    "id": "607af145-7e76-49d6-9d49-5a20b417bc06",
+    "employee_id": "6e0086b3-9aa4-41cd-87cf-5c9a89b876dd",
+    "period": "2025-Annual",
+    "rating": 3,
+    "reviewer_id": "9470a13d-5178-4c1c-86ef-09003a44612f",
+    "engagement_score": 2.8
+  },
+  {
+    "id": "debb6eaa-54b4-44e3-afd5-364e8d819c1c",
+    "employee_id": "f6a6e44c-2d90-4e9a-8666-2236cb535da3",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "57c44185-61ef-4d90-a293-529dd1f87edb",
+    "engagement_score": 1.9
+  },
+  {
+    "id": "7ae6c308-31a4-487d-875f-6259c2da5863",
+    "employee_id": "c547287d-c316-4f24-8955-2b21510eb2b7",
+    "period": "2025-Annual",
+    "rating": 4,
+    "reviewer_id": "ad4febd3-1468-4843-87ed-e27b656a5870",
+    "engagement_score": 1.6
+  },
+  {
+    "id": "48ba5bb4-2748-455a-8d41-359f3fb2deb6",
+    "employee_id": "438edd7a-33f0-4b11-94d1-7b5c23f90e7c",
+    "period": "2025-Annual",
+    "rating": 2,
+    "reviewer_id": "b4f6f8b7-cbca-4634-b94e-780db5706390",
+    "engagement_score": 4.4
+  }
+]

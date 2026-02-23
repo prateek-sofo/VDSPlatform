@@ -1,0 +1,37 @@
+[
+  {
+    "id": "8de377dd-11da-4bc2-acea-a4227961e2dc",
+    "name": "Taiwan Precision Parts",
+    "country": "Taiwan",
+    "lead_time_days": 21,
+    "reliability_score": 0.92
+  },
+  {
+    "id": "29abb3bf-403f-4381-8d64-d5570b6b458b",
+    "name": "Guangzhou Manufacturing",
+    "country": "China",
+    "lead_time_days": 35,
+    "reliability_score": 0.78
+  },
+  {
+    "id": "1186d5c2-358a-42f6-bdb4-09d7f1254fcb",
+    "name": "Mexico Nearshore Co",
+    "country": "Mexico",
+    "lead_time_days": 10,
+    "reliability_score": 0.95
+  },
+  {
+    "id": "663a8bc1-120a-4716-8c04-cb7bc321fc03",
+    "name": "Vietnamese Textiles Ltd",
+    "country": "Vietnam",
+    "lead_time_days": 28,
+    "reliability_score": 0.85
+  },
+  {
+    "id": "9ebf9cd0-2f85-4b03-8962-66bd4b0e8bbf",
+    "name": "US Domestic Supplier",
+    "country": "USA",
+    "lead_time_days": 5,
+    "reliability_score": 0.98
+  }
+]

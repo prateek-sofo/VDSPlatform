@@ -1,0 +1,802 @@
+[
+  {
+    "id": "968003aa-f525-4cf9-ba00-a7f9e2b426fd",
+    "name": "Globex Inc",
+    "industry": "Media",
+    "region": "Midwest",
+    "annual_revenue": 7692673,
+    "employees": 6070,
+    "tier": "SMB",
+    "arr": 122777
+  },
+  {
+    "id": "448fa743-5825-48ec-a33c-b2cb4462035b",
+    "name": "Oscorp Solutions",
+    "industry": "Manufacturing",
+    "region": "Northeast",
+    "annual_revenue": 15921684,
+    "employees": 9330,
+    "tier": "Mid-Market",
+    "arr": 436373
+  },
+  {
+    "id": "14a4860c-f3ee-40ca-b505-c360d201abc6",
+    "name": "Stark Systems",
+    "industry": "Manufacturing",
+    "region": "West",
+    "annual_revenue": 26019169,
+    "employees": 4037,
+    "tier": "Enterprise",
+    "arr": 86052
+  },
+  {
+    "id": "32ba23fc-3b7f-412c-9811-7f773c1751b7",
+    "name": "Initech LLC",
+    "industry": "Retail",
+    "region": "Northeast",
+    "annual_revenue": 409751486,
+    "employees": 8712,
+    "tier": "SMB",
+    "arr": 257330
+  },
+  {
+    "id": "5ff63612-8c57-4794-820e-517176f023e9",
+    "name": "Oscorp LLC",
+    "industry": "Telecom",
+    "region": "West",
+    "annual_revenue": 447890903,
+    "employees": 7714,
+    "tier": "Enterprise",
+    "arr": 406548
+  },
+  {
+    "id": "4b3d9d59-7e03-491d-8cfa-9295ed8102ee",
+    "name": "Globex Tech",
+    "industry": "Retail",
+    "region": "Southwest",
+    "annual_revenue": 271141719,
+    "employees": 4279,
+    "tier": "Enterprise",
+    "arr": 26139
+  },
+  {
+    "id": "209d89c3-a767-4a81-a940-0cab4252a7f5",
+    "name": "Oscorp Solutions",
+    "industry": "Telecom",
+    "region": "Southeast",
+    "annual_revenue": 473391920,
+    "employees": 6680,
+    "tier": "SMB",
+    "arr": 130708
+  },
+  {
+    "id": "64f95f6c-2ff1-4dbb-8230-e99c90b73c1e",
+    "name": "Stark LLC",
+    "industry": "Telecom",
+    "region": "Northeast",
+    "annual_revenue": 105131531,
+    "employees": 3023,
+    "tier": "SMB",
+    "arr": 151389
+  },
+  {
+    "id": "2f7ca456-2488-43cf-9344-f9b540e16cb6",
+    "name": "LexCorp Solutions",
+    "industry": "Media",
+    "region": "Southwest",
+    "annual_revenue": 424480018,
+    "employees": 3169,
+    "tier": "SMB",
+    "arr": 159483
+  },
+  {
+    "id": "1b7785e0-a44e-4d13-a6a6-1a63eb4f0f10",
+    "name": "Weyland Solutions",
+    "industry": "Media",
+    "region": "Midwest",
+    "annual_revenue": 299574028,
+    "employees": 1185,
+    "tier": "SMB",
+    "arr": 187776
+  },
+  {
+    "id": "1c648c87-01da-4b4f-8ed1-14bdfa754503",
+    "name": "Weyland Group",
+    "industry": "Media",
+    "region": "West",
+    "annual_revenue": 204551019,
+    "employees": 2292,
+    "tier": "Enterprise",
+    "arr": 196430
+  },
+  {
+    "id": "26fca7ed-dd58-40f8-869a-c9aee1c26876",
+    "name": "Oscorp Solutions",
+    "industry": "Healthcare",
+    "region": "Northeast",
+    "annual_revenue": 260117930,
+    "employees": 3089,
+    "tier": "Mid-Market",
+    "arr": 434461
+  },
+  {
+    "id": "20d74b6b-44f8-45be-97f0-107a06992c1a",
+    "name": "Wayne Inc",
+    "industry": "Software",
+    "region": "West",
+    "annual_revenue": 316308686,
+    "employees": 3024,
+    "tier": "Mid-Market",
+    "arr": 139445
+  },
+  {
+    "id": "594282bd-aec6-4ce0-af9f-d3aba9008934",
+    "name": "Umbrella Inc",
+    "industry": "Software",
+    "region": "Midwest",
+    "annual_revenue": 52506871,
+    "employees": 3225,
+    "tier": "SMB",
+    "arr": 102782
+  },
+  {
+    "id": "8870a988-8f4c-473c-9b9b-95ac613f3310",
+    "name": "Oscorp LLC",
+    "industry": "Financial Services",
+    "region": "Northeast",
+    "annual_revenue": 326071012,
+    "employees": 3570,
+    "tier": "Enterprise",
+    "arr": 310877
+  },
+  {
+    "id": "69fa4ed4-fd39-4cde-a815-afdb035c54b4",
+    "name": "Initech Solutions",
+    "industry": "Financial Services",
+    "region": "Southwest",
+    "annual_revenue": 457622164,
+    "employees": 7324,
+    "tier": "Enterprise",
+    "arr": 246020
+  },
+  {
+    "id": "2b28132d-38eb-4a96-83c8-97196ed3fb4d",
+    "name": "Oscorp LLC",
+    "industry": "Healthcare",
+    "region": "Midwest",
+    "annual_revenue": 323996547,
+    "employees": 7729,
+    "tier": "SMB",
+    "arr": 321709
+  },
+  {
+    "id": "ad3b6961-7773-46c9-a726-274bcad156e5",
+    "name": "Acme Solutions",
+    "industry": "Manufacturing",
+    "region": "West",
+    "annual_revenue": 478023847,
+    "employees": 4178,
+    "tier": "Mid-Market",
+    "arr": 350974
+  },
+  {
+    "id": "76ff5a06-28d7-4685-92b8-47f61aea5bac",
+    "name": "Globex Tech",
+    "industry": "Healthcare",
+    "region": "Southeast",
+    "annual_revenue": 55967060,
+    "employees": 4712,
+    "tier": "Mid-Market",
+    "arr": 243250
+  },
+  {
+    "id": "cf476e9a-37c4-4f54-8d15-ea8972cf83c5",
+    "name": "Oscorp Systems",
+    "industry": "Financial Services",
+    "region": "Midwest",
+    "annual_revenue": 346593840,
+    "employees": 5923,
+    "tier": "Enterprise",
+    "arr": 430380
+  },
+  {
+    "id": "4df8b94c-edfe-42fa-a80c-b796fb769b16",
+    "name": "Weyland Solutions",
+    "industry": "Media",
+    "region": "Southeast",
+    "annual_revenue": 148119611,
+    "employees": 7270,
+    "tier": "Enterprise",
+    "arr": 476138
+  },
+  {
+    "id": "e1600460-29d5-4afa-974c-b3b8e1a4d440",
+    "name": "Weyland Systems",
+    "industry": "Software",
+    "region": "Northeast",
+    "annual_revenue": 357481214,
+    "employees": 3530,
+    "tier": "SMB",
+    "arr": 337209
+  },
+  {
+    "id": "5b2d70e6-cad0-443c-9fa2-49b687ed26bb",
+    "name": "Weyland Tech",
+    "industry": "Software",
+    "region": "West",
+    "annual_revenue": 426529857,
+    "employees": 502,
+    "tier": "Mid-Market",
+    "arr": 440456
+  },
+  {
+    "id": "427718f8-098d-46ed-a3b5-f90a7cd25ab6",
+    "name": "Globex Solutions",
+    "industry": "Manufacturing",
+    "region": "Midwest",
+    "annual_revenue": 453698923,
+    "employees": 3085,
+    "tier": "Mid-Market",
+    "arr": 410896
+  },
+  {
+    "id": "1756296c-be3d-4b6e-a37a-d1b0b623a647",
+    "name": "Oscorp Solutions",
+    "industry": "Telecom",
+    "region": "Northeast",
+    "annual_revenue": 266918804,
+    "employees": 7141,
+    "tier": "Mid-Market",
+    "arr": 448276
+  },
+  {
+    "id": "cfcc8335-6eec-41a7-abe7-13cca1163c7c",
+    "name": "Oscorp Systems",
+    "industry": "Telecom",
+    "region": "West",
+    "annual_revenue": 100920500,
+    "employees": 1797,
+    "tier": "SMB",
+    "arr": 133891
+  },
+  {
+    "id": "e8e45206-a493-42b8-99c9-63200e32eae2",
+    "name": "Weyland Solutions",
+    "industry": "Healthcare",
+    "region": "Southeast",
+    "annual_revenue": 262726692,
+    "employees": 9329,
+    "tier": "SMB",
+    "arr": 89971
+  },
+  {
+    "id": "6e09c053-3e81-4927-9aaa-5821fbec8ead",
+    "name": "Cyberdyne Corp",
+    "industry": "Media",
+    "region": "West",
+    "annual_revenue": 45609876,
+    "employees": 4407,
+    "tier": "Mid-Market",
+    "arr": 30473
+  },
+  {
+    "id": "3acfccd1-9992-4d1a-933a-41576644c886",
+    "name": "Wayne Group",
+    "industry": "Financial Services",
+    "region": "Northeast",
+    "annual_revenue": 375717379,
+    "employees": 257,
+    "tier": "Enterprise",
+    "arr": 152134
+  },
+  {
+    "id": "af510bfe-3eb5-44c9-b8d5-56402c675e89",
+    "name": "Umbrella LLC",
+    "industry": "Telecom",
+    "region": "Midwest",
+    "annual_revenue": 300935429,
+    "employees": 3381,
+    "tier": "Enterprise",
+    "arr": 471854
+  },
+  {
+    "id": "f40935f5-978a-4810-a44e-ed3420b3958a",
+    "name": "Stark Solutions",
+    "industry": "Media",
+    "region": "Northeast",
+    "annual_revenue": 334357523,
+    "employees": 4607,
+    "tier": "SMB",
+    "arr": 164693
+  },
+  {
+    "id": "f29ff138-9b1d-4eba-b54f-f0536569f3a8",
+    "name": "LexCorp Tech",
+    "industry": "Software",
+    "region": "Midwest",
+    "annual_revenue": 386289941,
+    "employees": 9303,
+    "tier": "SMB",
+    "arr": 75850
+  },
+  {
+    "id": "50a51b17-d635-4994-b393-f0c982a61b9b",
+    "name": "Initech Solutions",
+    "industry": "Telecom",
+    "region": "Southwest",
+    "annual_revenue": 312185002,
+    "employees": 7809,
+    "tier": "Mid-Market",
+    "arr": 251224
+  },
+  {
+    "id": "1ee3aef2-5753-4d5c-87e9-2e8673d306b2",
+    "name": "Stark Tech",
+    "industry": "Healthcare",
+    "region": "Southeast",
+    "annual_revenue": 338196748,
+    "employees": 2531,
+    "tier": "Mid-Market",
+    "arr": 197032
+  },
+  {
+    "id": "b8ad96c3-98b9-4601-909b-30b47a6f7712",
+    "name": "Weyland Systems",
+    "industry": "Healthcare",
+    "region": "West",
+    "annual_revenue": 245875481,
+    "employees": 7551,
+    "tier": "Mid-Market",
+    "arr": 227128
+  },
+  {
+    "id": "f2dccc06-43dd-46ac-a49d-7c14f1e3f57c",
+    "name": "Umbrella Group",
+    "industry": "Financial Services",
+    "region": "West",
+    "annual_revenue": 377415877,
+    "employees": 8368,
+    "tier": "SMB",
+    "arr": 276721
+  },
+  {
+    "id": "cad5df31-d123-47e7-a440-2df1f6c7c701",
+    "name": "Oscorp Solutions",
+    "industry": "Telecom",
+    "region": "Midwest",
+    "annual_revenue": 306144971,
+    "employees": 2207,
+    "tier": "SMB",
+    "arr": 324186
+  },
+  {
+    "id": "16ce8787-ba04-4446-a302-994f917f70be",
+    "name": "Wayne Tech",
+    "industry": "Software",
+    "region": "Southeast",
+    "annual_revenue": 287789656,
+    "employees": 9977,
+    "tier": "Enterprise",
+    "arr": 265576
+  },
+  {
+    "id": "b49cee95-9a45-4c36-9555-47c57d9bb4bb",
+    "name": "Wayne Corp",
+    "industry": "Manufacturing",
+    "region": "Southwest",
+    "annual_revenue": 231535844,
+    "employees": 9863,
+    "tier": "Enterprise",
+    "arr": 292474
+  },
+  {
+    "id": "cf73a53d-0d14-48b5-be7f-4580dbda9000",
+    "name": "Acme Group",
+    "industry": "Financial Services",
+    "region": "Southwest",
+    "annual_revenue": 105233599,
+    "employees": 5617,
+    "tier": "Enterprise",
+    "arr": 263223
+  },
+  {
+    "id": "81033a29-e1c0-4e2b-bd63-4eadb1ea018d",
+    "name": "Weyland LLC",
+    "industry": "Telecom",
+    "region": "West",
+    "annual_revenue": 376882494,
+    "employees": 4987,
+    "tier": "SMB",
+    "arr": 446758
+  },
+  {
+    "id": "65d6c2b9-00b3-4db4-9db5-0c1c8824ab36",
+    "name": "Umbrella Systems",
+    "industry": "Media",
+    "region": "Southeast",
+    "annual_revenue": 130218060,
+    "employees": 9838,
+    "tier": "SMB",
+    "arr": 80967
+  },
+  {
+    "id": "39c6d40e-3940-41f9-9855-e3df17f436d8",
+    "name": "Oscorp Systems",
+    "industry": "Healthcare",
+    "region": "Southeast",
+    "annual_revenue": 192705183,
+    "employees": 7523,
+    "tier": "SMB",
+    "arr": 394041
+  },
+  {
+    "id": "ae935bf5-cdf9-4f03-b6eb-915de21200ff",
+    "name": "Globex Solutions",
+    "industry": "Financial Services",
+    "region": "Midwest",
+    "annual_revenue": 300047598,
+    "employees": 4471,
+    "tier": "SMB",
+    "arr": 125148
+  },
+  {
+    "id": "24184f40-a6e6-4a75-9981-39fa0e248851",
+    "name": "Weyland Tech",
+    "industry": "Software",
+    "region": "Northeast",
+    "annual_revenue": 456343959,
+    "employees": 4878,
+    "tier": "Mid-Market",
+    "arr": 459104
+  },
+  {
+    "id": "9b47a280-f672-4d3b-8ddb-40b5f459533c",
+    "name": "Initech Group",
+    "industry": "Retail",
+    "region": "Southeast",
+    "annual_revenue": 115342018,
+    "employees": 6360,
+    "tier": "Mid-Market",
+    "arr": 218322
+  },
+  {
+    "id": "f729de8d-582b-4dec-a6c5-94337488b7d2",
+    "name": "Acme Corp",
+    "industry": "Telecom",
+    "region": "Southwest",
+    "annual_revenue": 192298263,
+    "employees": 6105,
+    "tier": "SMB",
+    "arr": 459108
+  },
+  {
+    "id": "5e8ca227-1787-48ef-8815-f95002618dc4",
+    "name": "Oscorp Group",
+    "industry": "Financial Services",
+    "region": "West",
+    "annual_revenue": 320571035,
+    "employees": 7902,
+    "tier": "SMB",
+    "arr": 151891
+  },
+  {
+    "id": "5b177a87-b29d-487d-ae3c-1febe000fd9a",
+    "name": "Globex Solutions",
+    "industry": "Manufacturing",
+    "region": "Southeast",
+    "annual_revenue": 391459784,
+    "employees": 6295,
+    "tier": "Mid-Market",
+    "arr": 76449
+  },
+  {
+    "id": "354f4af1-f33e-4d93-bdf0-a69ae7ca603e",
+    "name": "Wayne Corp",
+    "industry": "Media",
+    "region": "Midwest",
+    "annual_revenue": 231706631,
+    "employees": 9696,
+    "tier": "Enterprise",
+    "arr": 493468
+  },
+  {
+    "id": "fd185ab6-9060-4b5a-aa2a-dee4d4ae2b88",
+    "name": "Initech Tech",
+    "industry": "Healthcare",
+    "region": "Southeast",
+    "annual_revenue": 76050582,
+    "employees": 2270,
+    "tier": "Mid-Market",
+    "arr": 228684
+  },
+  {
+    "id": "82cdbdbd-3a4f-4b04-b5ff-eb47bd45c01f",
+    "name": "Acme LLC",
+    "industry": "Telecom",
+    "region": "West",
+    "annual_revenue": 7325313,
+    "employees": 4232,
+    "tier": "Mid-Market",
+    "arr": 181077
+  },
+  {
+    "id": "eaebeef2-4354-42db-b338-afe9618ac2a9",
+    "name": "Weyland Inc",
+    "industry": "Telecom",
+    "region": "Southwest",
+    "annual_revenue": 378865770,
+    "employees": 6056,
+    "tier": "SMB",
+    "arr": 201993
+  },
+  {
+    "id": "9a8cd290-ed4f-4f9a-bfa2-71583a43982c",
+    "name": "Weyland Systems",
+    "industry": "Retail",
+    "region": "Southeast",
+    "annual_revenue": 199965833,
+    "employees": 6815,
+    "tier": "Mid-Market",
+    "arr": 294904
+  },
+  {
+    "id": "b6a9c354-787c-4da0-8b73-709af11905e1",
+    "name": "Stark Corp",
+    "industry": "Software",
+    "region": "West",
+    "annual_revenue": 139523665,
+    "employees": 5617,
+    "tier": "Mid-Market",
+    "arr": 401905
+  },
+  {
+    "id": "35a40bc5-eaa8-4724-8cf3-11ba8c9ef4bb",
+    "name": "LexCorp LLC",
+    "industry": "Telecom",
+    "region": "Southeast",
+    "annual_revenue": 59000580,
+    "employees": 7572,
+    "tier": "SMB",
+    "arr": 239659
+  },
+  {
+    "id": "ea2252fd-4c1b-4e5c-a05f-deb316146d1c",
+    "name": "Wayne Inc",
+    "industry": "Financial Services",
+    "region": "Southwest",
+    "annual_revenue": 253559996,
+    "employees": 2411,
+    "tier": "Enterprise",
+    "arr": 464836
+  },
+  {
+    "id": "a8f050e9-dff6-4ded-ba8c-7bd6c158c734",
+    "name": "LexCorp Systems",
+    "industry": "Financial Services",
+    "region": "Southeast",
+    "annual_revenue": 299123427,
+    "employees": 7700,
+    "tier": "Mid-Market",
+    "arr": 41688
+  },
+  {
+    "id": "a7ee7e81-31ae-42a7-92b6-a99a99f407b1",
+    "name": "Weyland LLC",
+    "industry": "Manufacturing",
+    "region": "Midwest",
+    "annual_revenue": 329535012,
+    "employees": 1311,
+    "tier": "Enterprise",
+    "arr": 294253
+  },
+  {
+    "id": "65c25a68-52d4-4734-8cca-d0d5770ad5e9",
+    "name": "Oscorp LLC",
+    "industry": "Retail",
+    "region": "Midwest",
+    "annual_revenue": 2126576,
+    "employees": 5272,
+    "tier": "Enterprise",
+    "arr": 16395
+  },
+  {
+    "id": "f2947364-2932-4598-940e-e9c520cb7909",
+    "name": "Umbrella Corp",
+    "industry": "Media",
+    "region": "West",
+    "annual_revenue": 72772146,
+    "employees": 3260,
+    "tier": "Enterprise",
+    "arr": 410691
+  },
+  {
+    "id": "00d8b3bb-f0f0-441a-a055-cc45cee885e2",
+    "name": "LexCorp Tech",
+    "industry": "Manufacturing",
+    "region": "Northeast",
+    "annual_revenue": 348780269,
+    "employees": 6349,
+    "tier": "Mid-Market",
+    "arr": 466235
+  },
+  {
+    "id": "4e6ab47f-abb2-49c0-b342-7b6db4c2cd25",
+    "name": "Oscorp Solutions",
+    "industry": "Software",
+    "region": "Northeast",
+    "annual_revenue": 457107816,
+    "employees": 7093,
+    "tier": "Enterprise",
+    "arr": 247829
+  },
+  {
+    "id": "dc95cf21-86d1-4484-acdf-f8c87bfe4d0e",
+    "name": "Acme LLC",
+    "industry": "Media",
+    "region": "Southwest",
+    "annual_revenue": 8447375,
+    "employees": 2346,
+    "tier": "Enterprise",
+    "arr": 35053
+  },
+  {
+    "id": "49b1e137-d34b-4a02-9ac0-91c67e7647ca",
+    "name": "Globex Corp",
+    "industry": "Retail",
+    "region": "Northeast",
+    "annual_revenue": 252764568,
+    "employees": 2137,
+    "tier": "SMB",
+    "arr": 250776
+  },
+  {
+    "id": "b55fc7c2-baa5-488b-9088-14c6032ec316",
+    "name": "Weyland Corp",
+    "industry": "Financial Services",
+    "region": "Southeast",
+    "annual_revenue": 235767872,
+    "employees": 1333,
+    "tier": "Mid-Market",
+    "arr": 268259
+  },
+  {
+    "id": "59c354b4-6504-4a7d-9026-ebdd9d50be57",
+    "name": "Initech Systems",
+    "industry": "Telecom",
+    "region": "Midwest",
+    "annual_revenue": 335888813,
+    "employees": 7253,
+    "tier": "Mid-Market",
+    "arr": 311903
+  },
+  {
+    "id": "dac8c15b-b815-4d8f-aeab-890aa71fbf54",
+    "name": "Wayne Group",
+    "industry": "Financial Services",
+    "region": "Southeast",
+    "annual_revenue": 454250275,
+    "employees": 7652,
+    "tier": "SMB",
+    "arr": 176921
+  },
+  {
+    "id": "2d0d06e3-383c-43f8-af70-661d4b5939b8",
+    "name": "Wayne Group",
+    "industry": "Financial Services",
+    "region": "Southeast",
+    "annual_revenue": 168083246,
+    "employees": 7525,
+    "tier": "SMB",
+    "arr": 37303
+  },
+  {
+    "id": "78d5dba3-1a88-4085-bffa-a7979d678a24",
+    "name": "Cyberdyne Group",
+    "industry": "Retail",
+    "region": "Midwest",
+    "annual_revenue": 405231338,
+    "employees": 3206,
+    "tier": "Enterprise",
+    "arr": 105005
+  },
+  {
+    "id": "2470b6fe-e677-4041-beb7-d92222d5b4b2",
+    "name": "Weyland Corp",
+    "industry": "Healthcare",
+    "region": "Southwest",
+    "annual_revenue": 228879756,
+    "employees": 4893,
+    "tier": "Mid-Market",
+    "arr": 80017
+  },
+  {
+    "id": "20577a3c-c0af-45e9-9980-c963ca139059",
+    "name": "Cyberdyne Inc",
+    "industry": "Software",
+    "region": "Midwest",
+    "annual_revenue": 56779290,
+    "employees": 1653,
+    "tier": "SMB",
+    "arr": 297010
+  },
+  {
+    "id": "7bf05351-eced-47fe-8c99-0c03626ce84d",
+    "name": "Oscorp Tech",
+    "industry": "Media",
+    "region": "Southwest",
+    "annual_revenue": 448619501,
+    "employees": 2096,
+    "tier": "Mid-Market",
+    "arr": 67179
+  },
+  {
+    "id": "f465c49a-da15-42b6-8314-0435b4c051a1",
+    "name": "Wayne LLC",
+    "industry": "Healthcare",
+    "region": "Northeast",
+    "annual_revenue": 287967838,
+    "employees": 1262,
+    "tier": "Mid-Market",
+    "arr": 404158
+  },
+  {
+    "id": "0fbfbdc5-586d-40b2-964f-f1fbae02dc66",
+    "name": "Initech Corp",
+    "industry": "Software",
+    "region": "Southwest",
+    "annual_revenue": 77387298,
+    "employees": 7324,
+    "tier": "Enterprise",
+    "arr": 354188
+  },
+  {
+    "id": "5bc4822d-8573-4fc2-b1f8-22dcef31ad68",
+    "name": "Wayne Solutions",
+    "industry": "Financial Services",
+    "region": "Northeast",
+    "annual_revenue": 381370904,
+    "employees": 1904,
+    "tier": "Mid-Market",
+    "arr": 49184
+  },
+  {
+    "id": "25cd2b5b-2293-452a-bf1f-2650d334a9d1",
+    "name": "Umbrella Corp",
+    "industry": "Manufacturing",
+    "region": "West",
+    "annual_revenue": 90686648,
+    "employees": 7269,
+    "tier": "Enterprise",
+    "arr": 317548
+  },
+  {
+    "id": "c178e65a-910a-4d94-9eda-9f7f1088545e",
+    "name": "Globex Tech",
+    "industry": "Financial Services",
+    "region": "Midwest",
+    "annual_revenue": 382828341,
+    "employees": 262,
+    "tier": "SMB",
+    "arr": 43137
+  },
+  {
+    "id": "7cb1d60d-243f-4171-9473-4423d810afb7",
+    "name": "Stark LLC",
+    "industry": "Healthcare",
+    "region": "Southeast",
+    "annual_revenue": 111962817,
+    "employees": 9619,
+    "tier": "Mid-Market",
+    "arr": 437060
+  },
+  {
+    "id": "49eb2536-28cc-4ed4-b7f4-b60fd488174e",
+    "name": "Acme Tech",
+    "industry": "Media",
+    "region": "West",
+    "annual_revenue": 77640802,
+    "employees": 3137,
+    "tier": "SMB",
+    "arr": 162717
+  }
+]
