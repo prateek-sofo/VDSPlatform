@@ -7,6 +7,7 @@ from fastapi import APIRouter, Depends, HTTPException, status, BackgroundTasks
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
 from pydantic import BaseModel
+from datetime import datetime
 from typing import Optional
 import structlog
 
@@ -39,7 +40,7 @@ class EntityResponse(BaseModel):
     status: str
     properties: dict
     source_mappings: dict
-    created_at: str
+    created_at: datetime
 
     class Config:
         from_attributes = True
@@ -92,7 +93,7 @@ class RelationshipResponse(BaseModel):
     confidence: float
     status: str
     evidence: dict
-    created_at: str
+    created_at: datetime
 
     class Config:
         from_attributes = True
@@ -296,3 +297,22 @@ async def install_domain_pack(domain_id: str, db: AsyncSession = Depends(get_db)
         raise HTTPException(404, f"Domain pack '{domain_id}' not found")
     result = await install_domain(domain_id, db)
     return result
+class DiscoverRequest(BaseModel):
+    connector_id: str
+    industry: str = "revops"
+
+@router.post("/discover")
+async def discover_ontology(body: DiscoverRequest, background_tasks: BackgroundTasks):
+    from app.services.agents.semantic_agent import SemanticAgent
+    agent = SemanticAgent()
+    background_tasks.add_task(agent.discover_ontology, body.connector_id, body.industry)
+    return {"status": "discover_queued", "connector_id": body.connector_id}
+
+@router.post("/entities/{entity_id}/certify")
+async def certify_entity(entity_id: str, db: AsyncSession = Depends(get_db)):
+    entity = await db.get(EntityType, entity_id)
+    if not entity:
+        raise HTTPException(404, "Entity not found")
+    entity.status = "certified"
+    await db.commit()
+    return {"id": entity_id, "status": "certified"}

@@ -24,13 +24,16 @@ class ConnectorRegistry:
     @classmethod
     def catalog(cls) -> list[dict]:
         from app.services.connectors import (
-            csv_connector, postgres_connector, snowflake_connector,
+            csv_connector, postgres_connector, mongo_connector,
+            unstructured_connector, snowflake_connector,
             salesforce_connector, stripe_connector, hubspot_connector,
             bigquery_connector, segment_connector, zendesk_connector
         )
         return [
             {"type": "csv", "name": "CSV / Excel", "category": "file", "tier": 0, "auth": "none"},
             {"type": "postgres", "name": "PostgreSQL", "category": "database", "tier": 0, "auth": "connection_string"},
+            {"type": "mongo", "name": "MongoDB", "category": "database", "tier": 0, "auth": "connection_string"},
+            {"type": "unstructured", "name": "Unstructured (PDF, Mix)", "category": "unstructured", "tier": 0, "auth": "none"},
             {"type": "mysql", "name": "MySQL", "category": "database", "tier": 0, "auth": "connection_string"},
             {"type": "snowflake", "name": "Snowflake", "category": "warehouse", "tier": 0, "auth": "oauth"},
             {"type": "bigquery", "name": "Google BigQuery", "category": "warehouse", "tier": 0, "auth": "service_account"},

@@ -1,5 +1,5 @@
 """Remaining API stubs for modeling, agents builder, and governance endpoints."""
-from fastapi import APIRouter, Depends, HTTPException, status, BackgroundTasks
+from fastapi import APIRouter, Depends, HTTPException, status, BackgroundTasks, UploadFile, File
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
 from pydantic import BaseModel
@@ -8,7 +8,10 @@ import uuid, json
 import structlog
 
 from app.db.session import get_db
-from app.db.models import ModelRegistryEntry, AgentWorkflow, WorkflowRun, AuditEvent, AutonomyLevel, AgentStatus
+from app.db.models import (
+    ModelRegistryEntry, AgentWorkflow, WorkflowRun, AuditEvent, 
+    AutonomyLevel, AgentStatus, EntityType, RelationshipType
+)
 from app.services.llm.client import LLMClient
 
 log = structlog.get_logger()
@@ -48,35 +51,39 @@ async def train_model(body: ModelTrainRequest, background_tasks: BackgroundTasks
     return {"model_id": entry.id, "status": "training", "message": "AutoML job queued"}
 
 
-async def run_automl(model_id: str, body: ModelTrainRequest):
-    """Simulated AutoML using LLM to generate realistic model evaluation results."""
-    llm = LLMClient()
-    prompt = f"""
-You are a Principal ML Scientist. Design and evaluate an AutoML pipeline for:
-Task: {body.task_type}
-Target: {body.target_column}
-Features: {body.feature_columns}
-Domain: {body.domain}
-
-Return JSON with: algorithm, hyperparameters, metrics (appropriate for task type),
-leaderboard (3 models), shap_importance (top 5 features with scores),
-deployment_spec, monitoring_config
-"""
-    result = await llm.json_chat(
-        messages=[{"role": "user", "content": prompt}],
-        system_prompt="You are an ML Scientist. Return realistic model evaluation results as JSON.",
-        temperature=0.2,
+async def run_automl(model_id: str, body: ModelTrainRequest, session_id: Optional[str] = None):
+    """Refined AutoML using ModelingAgent to generate high-granularity results."""
+    from app.services.agents.modeling_agent import ModelingAgent
+    from app.db.models import SessionArtifact
+    
+    agent = ModelingAgent(session_id or "default")
+    result = await agent.run_pipeline(
+        dataset_id=body.snapshot_id or "sample",
+        target_column=body.target_column,
+        problem_type=body.task_type
     )
+
     from app.db.session import AsyncSessionLocal
     async with AsyncSessionLocal() as db:
         model = await db.get(ModelRegistryEntry, model_id)
         if model:
-            model.algorithm = result.get("algorithm", "LightGBM")
-            model.hyperparameters = result.get("hyperparameters", {})
-            model.metrics = result.get("metrics", {})
-            model.monitoring_config = result.get("monitoring_config", {})
+            model.algorithm = result.get("best_model", "XGBoost")
+            model.metrics = {"accuracy": result.get("performance", 0.9)}
+            model.hyperparameters = {"type": "auto", "steps": result.get("preprocessing", [])}
             model.deployment_status = "challenger"
+            
+            # Save artifacts if session exists
+            if session_id:
+                for art in result.get("artifacts", []):
+                    db.add(SessionArtifact(
+                        id=str(uuid.uuid4()),
+                        session_id=session_id,
+                        artifact_type=art["type"],
+                        content=art["content"]
+                    ))
+            
             await db.commit()
+            log.info("modeling.automl.complete", model_id=model_id)
 
 
 @modeling_router.post("/registry/{model_id}/promote")
@@ -284,25 +291,71 @@ class UploadResponse(BaseModel):
 
 @uploads_router.post("/csv", response_model=UploadResponse)
 async def upload_csv(
-    background_tasks: BackgroundTasks,
+    file: UploadFile = File(...),
     db: AsyncSession = Depends(get_db),
 ):
-    """Handle CSV/Excel file upload via form-data."""
-    from fastapi import UploadFile, File
+    """Handle CSV file upload via form-data, save to staging, and profile."""
     import pandas as pd
-    from app.db.models import DataConnector, ConnectorType, ConnectorStatus
+    import os
+    import shutil
+    from app.db.models import DataConnector, ConnectorType, ConnectorStatus, SyncRun
     from app.services.connectors.csv_connector import CSVConnector
-    import io
+    from datetime import datetime
 
-    # Create connector record
+    # 1. Create staging directory if not exists
+    staging_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../staging"))
+    os.makedirs(staging_path, exist_ok=True)
+    
+    # 2. Save file to staging
+    file_id = str(uuid.uuid4())
+    filename = f"{file_id}_{file.filename}"
+    full_path = os.path.join(staging_path, filename)
+    
+    with open(full_path, "wb") as buffer:
+        shutil.copyfileobj(file.file, buffer)
+    
+    # 3. Create connector record
     connector = DataConnector(
         id=str(uuid.uuid4()), tenant_id="default",
-        name="CSV Upload", connector_type=ConnectorType.csv,
-        status=ConnectorStatus.connected, config={"table_name": "uploaded_data"},
+        name=file.filename or "CSV Upload", 
+        connector_type=ConnectorType.csv,
+        status=ConnectorStatus.connected, 
+        config={"file_path": full_path, "table_name": file.filename.split('.')[0] if file.filename else "uploaded_data"},
     )
     db.add(connector)
     await db.commit()
-    return {"connector_id": connector.id, "table_name": "uploaded_data", "row_count": 0, "profile": {}, "semantic_pack": {}}
+    await db.refresh(connector)
+
+    # 4. Profile the data immediately
+    csv_service = CSVConnector()
+    # We use sync logic to profile
+    sync_result = await csv_service.sync(connector.config, None, False, str(uuid.uuid4()))
+    
+    # Update connector with sync info
+    connector.last_sync_at = datetime.utcnow()
+    connector.schema_manifest = sync_result.get("semantic_pack")
+    
+    # Create sync run record
+    run = SyncRun(
+        id=str(uuid.uuid4()),
+        connector_id=connector.id,
+        status="succeeded",
+        rows_read=sync_result.get("rows_read", 0),
+        rows_written=sync_result.get("rows_written", 0),
+        profile_report=sync_result.get("profile_report"),
+        semantic_pack=sync_result.get("semantic_pack"),
+        finished_at=datetime.utcnow()
+    )
+    db.add(run)
+    await db.commit()
+
+    return {
+        "connector_id": connector.id,
+        "table_name": connector.config["table_name"],
+        "row_count": sync_result.get("rows_read", 0),
+        "profile": sync_result.get("profile_report", {}),
+        "semantic_pack": sync_result.get("semantic_pack", {})
+    }
 
 
 # ─── Auth Router ──────────────────────────────────────────────────────────────

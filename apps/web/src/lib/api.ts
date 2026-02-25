@@ -87,9 +87,43 @@ export async function getConnectorCatalog() {
     return r.json();
 }
 
+export async function uploadCSV(file: File) {
+    const formData = new FormData();
+    formData.append('file', file);
+    const r = await fetch(`${V1}/uploads/csv`, {
+        method: 'POST',
+        body: formData,
+    });
+    return r.json();
+}
+
+export async function getConnectorSample(connectorId: string, limit: number = 100) {
+    const r = await fetch(`${V1}/connectors/${connectorId}/sample?limit=${limit}`);
+    return r.json();
+}
+
 // ── Semantic ────────────────────────────────────────────────────────────────
 export async function listEntities() {
     const r = await fetch(`${V1}/semantic/entities`);
+    return r.json();
+}
+
+export async function listRelationships() {
+    const r = await fetch(`${V1}/semantic/relationships`);
+    return r.json();
+}
+
+export async function discoverOntology(connectorId: string, industry: string = 'revops') {
+    const r = await fetch(`${V1}/semantic/discover`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ connector_id: connectorId, industry }),
+    });
+    return r.json();
+}
+
+export async function certifyEntity(entityId: string) {
+    const r = await fetch(`${V1}/semantic/entities/${entityId}/certify`, { method: 'POST' });
     return r.json();
 }
 

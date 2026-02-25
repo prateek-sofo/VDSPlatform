@@ -148,24 +148,22 @@ class LLMClient:
         """Request a JSON response and parse it."""
         raw = await self.chat(messages, system_prompt=system_prompt, json_mode=True, response_schema=response_schema, **kwargs)
         try:
-            # Aggressively strip markdown code block syntax
+            # Fallback 1: Markdown code block stripping
             cleaned = raw.strip()
-            if cleaned.startswith("```json"):
-                cleaned = cleaned[7:]
-            elif cleaned.startswith("```"):
-                cleaned = cleaned[3:]
-            if cleaned.endswith("```"):
-                cleaned = cleaned[:-3]
-            cleaned = cleaned.strip()
-            return json.loads(cleaned)
-        except json.JSONDecodeError:
-            # Fallback: find JSON block in text
-            import re
-            match = re.search(r'\{.*\}', raw, re.DOTALL)
-            if match:
-                try:
+            if "```json" in cleaned:
+                cleaned = cleaned.split("```json")[-1].split("```")[0].strip()
+            elif "```" in cleaned:
+                cleaned = cleaned.split("```")[-1].split("```")[0].strip()
+            
+            try:
+                return json.loads(cleaned)
+            except json.JSONDecodeError:
+                # Fallback 2: Regex find JSON block
+                import re
+                match = re.search(r'\{.*\}', cleaned, re.DOTALL)
+                if match:
                     return json.loads(match.group())
-                except json.JSONDecodeError:
-                    pass
-            log.warning("llm.json_parse_failed", raw=raw[:200])
-            return {"raw": raw}
+                raise
+        except Exception as e:
+            log.warning("llm.json_parse_failed", error=str(e), raw=raw[:200])
+            return {"raw": raw, "error": "JSON parsing failed"}

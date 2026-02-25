@@ -36,6 +36,8 @@ class ConnectorType(str, enum.Enum):
     s3 = "s3"
     google_sheets = "google_sheets"
     excel = "excel"
+    mongo = "mongo"
+    unstructured = "unstructured"
 
 
 class ConnectorStatus(str, enum.Enum):

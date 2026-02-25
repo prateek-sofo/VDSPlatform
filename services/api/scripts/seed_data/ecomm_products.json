@@ -1,402 +1,402 @@
 [
   {
-    "id": "bbc96caf-3242-4ec2-8cc2-88c6539550a7",
+    "id": "6301b8d8-eed8-406e-a22e-463e532a09c7",
     "sku": "P0000",
-    "name": "Beauty Item 1",
-    "category": "Beauty",
-    "price": 82.09,
-    "margin_pct": 0.31
+    "name": "Fitness Item 1",
+    "category": "Fitness",
+    "price": 100.69,
+    "margin_pct": 0.52
   },
   {
-    "id": "c45e0492-e39e-40be-8c75-53f44487c86d",
+    "id": "be5b492d-8626-4503-b0b7-dd28bbed0135",
     "sku": "P0001",
-    "name": "Toys Item 2",
-    "category": "Toys",
-    "price": 80.63,
-    "margin_pct": 0.52
-  },
-  {
-    "id": "704fe207-0f4e-44f6-9ea6-5880068d5303",
-    "sku": "P0002",
-    "name": "Toys Item 3",
-    "category": "Toys",
-    "price": 33.08,
-    "margin_pct": 0.39
-  },
-  {
-    "id": "59202233-b28f-40aa-a32c-495723d02b4d",
-    "sku": "P0003",
-    "name": "Electronics Item 4",
+    "name": "Electronics Item 2",
     "category": "Electronics",
-    "price": 149.93,
-    "margin_pct": 0.37
-  },
-  {
-    "id": "0d2bccbb-5a65-4c33-b87e-912e15c8ee32",
-    "sku": "P0004",
-    "name": "Books Item 5",
-    "category": "Books",
-    "price": 145.79,
-    "margin_pct": 0.18
-  },
-  {
-    "id": "38ea523a-f43c-4e8c-985a-97295487d9b1",
-    "sku": "P0005",
-    "name": "Beauty Item 6",
-    "category": "Beauty",
-    "price": 53.59,
-    "margin_pct": 0.18
-  },
-  {
-    "id": "35d1502e-2420-41af-89cd-68c79d50ec58",
-    "sku": "P0006",
-    "name": "Electronics Item 7",
-    "category": "Electronics",
-    "price": 261.32,
-    "margin_pct": 0.24
-  },
-  {
-    "id": "4b6d2fc2-669c-49d0-97d3-1865570ad8f3",
-    "sku": "P0007",
-    "name": "Electronics Item 8",
-    "category": "Electronics",
-    "price": 285.7,
-    "margin_pct": 0.4
-  },
-  {
-    "id": "a29e5687-2df6-44e8-8a87-728467b858c0",
-    "sku": "P0008",
-    "name": "Clothing Item 9",
-    "category": "Clothing",
-    "price": 288.76,
-    "margin_pct": 0.41
-  },
-  {
-    "id": "06ed919c-2543-4aad-8d2c-1f84de9ab7b2",
-    "sku": "P0009",
-    "name": "Toys Item 10",
-    "category": "Toys",
-    "price": 207.75,
-    "margin_pct": 0.54
-  },
-  {
-    "id": "27777caf-5ccd-4de1-be94-19d8a1c8b4e7",
-    "sku": "P0010",
-    "name": "Books Item 11",
-    "category": "Books",
-    "price": 50.98,
-    "margin_pct": 0.21
-  },
-  {
-    "id": "e2ea33b9-1fe3-46c0-8163-0426f4a8cc94",
-    "sku": "P0011",
-    "name": "Toys Item 12",
-    "category": "Toys",
-    "price": 22.76,
-    "margin_pct": 0.51
-  },
-  {
-    "id": "1a3e019b-a1d6-493c-a41d-c744fbd7963e",
-    "sku": "P0012",
-    "name": "Electronics Item 13",
-    "category": "Electronics",
-    "price": 172.03,
-    "margin_pct": 0.6
-  },
-  {
-    "id": "5cab6640-c464-4f99-8a36-4a6a1b8f63f0",
-    "sku": "P0013",
-    "name": "Electronics Item 14",
-    "category": "Electronics",
-    "price": 262.14,
-    "margin_pct": 0.24
-  },
-  {
-    "id": "61a6ce8b-9f98-486f-87b5-fb51f62753d4",
-    "sku": "P0014",
-    "name": "Beauty Item 15",
-    "category": "Beauty",
-    "price": 62.58,
-    "margin_pct": 0.31
-  },
-  {
-    "id": "30e4872d-1fd6-45d3-a0e2-e5d4173ff46f",
-    "sku": "P0015",
-    "name": "Clothing Item 16",
-    "category": "Clothing",
-    "price": 292.17,
-    "margin_pct": 0.37
-  },
-  {
-    "id": "0af35593-1913-4b46-b5ed-df3ce38e1d37",
-    "sku": "P0016",
-    "name": "Fitness Item 17",
-    "category": "Fitness",
-    "price": 50.71,
-    "margin_pct": 0.63
-  },
-  {
-    "id": "ac523672-9706-4305-89a3-c939b279d512",
-    "sku": "P0017",
-    "name": "HomeGoods Item 18",
-    "category": "HomeGoods",
-    "price": 40.15,
-    "margin_pct": 0.52
-  },
-  {
-    "id": "70878fe2-bcc3-46dc-92f0-3ba9d012380e",
-    "sku": "P0018",
-    "name": "Clothing Item 19",
-    "category": "Clothing",
-    "price": 298.57,
-    "margin_pct": 0.28
-  },
-  {
-    "id": "97161515-a5c4-4d81-83c0-dc1abe612bba",
-    "sku": "P0019",
-    "name": "Books Item 20",
-    "category": "Books",
-    "price": 101.03,
-    "margin_pct": 0.58
-  },
-  {
-    "id": "1fce534a-d15c-49ef-84c6-ff97e40fd7e3",
-    "sku": "P0020",
-    "name": "Beauty Item 21",
-    "category": "Beauty",
-    "price": 45.15,
-    "margin_pct": 0.19
-  },
-  {
-    "id": "89b7701c-25dd-40a5-9452-c37991c03c17",
-    "sku": "P0021",
-    "name": "HomeGoods Item 22",
-    "category": "HomeGoods",
-    "price": 286.97,
-    "margin_pct": 0.16
-  },
-  {
-    "id": "646405f1-d12b-47b9-a082-e028ef421758",
-    "sku": "P0022",
-    "name": "Fitness Item 23",
-    "category": "Fitness",
-    "price": 180.72,
-    "margin_pct": 0.29
-  },
-  {
-    "id": "5a17a193-62bb-4f18-8372-4610f45a9e90",
-    "sku": "P0023",
-    "name": "Electronics Item 24",
-    "category": "Electronics",
-    "price": 193.41,
-    "margin_pct": 0.2
-  },
-  {
-    "id": "e3c815bf-b681-4896-bff4-37af55afb7de",
-    "sku": "P0024",
-    "name": "Books Item 25",
-    "category": "Books",
-    "price": 267.85,
-    "margin_pct": 0.57
-  },
-  {
-    "id": "b2121a06-e6ca-4356-89a1-5c2940951202",
-    "sku": "P0025",
-    "name": "Toys Item 26",
-    "category": "Toys",
-    "price": 107.16,
-    "margin_pct": 0.28
-  },
-  {
-    "id": "7a09ec41-46aa-41a3-a31f-bdee43a26b31",
-    "sku": "P0026",
-    "name": "Fitness Item 27",
-    "category": "Fitness",
-    "price": 191.76,
-    "margin_pct": 0.64
-  },
-  {
-    "id": "2cdb2d0c-4023-4a48-abd3-5c962385af7c",
-    "sku": "P0027",
-    "name": "Books Item 28",
-    "category": "Books",
-    "price": 162.68,
-    "margin_pct": 0.55
-  },
-  {
-    "id": "a5f0c0cd-dda0-4537-964f-3751b62dc282",
-    "sku": "P0028",
-    "name": "Fitness Item 29",
-    "category": "Fitness",
-    "price": 203.22,
-    "margin_pct": 0.36
-  },
-  {
-    "id": "2b1bac12-267c-4ad9-8b2a-0cc733fc96f2",
-    "sku": "P0029",
-    "name": "Fitness Item 30",
-    "category": "Fitness",
-    "price": 75.31,
-    "margin_pct": 0.52
-  },
-  {
-    "id": "d92247ab-20ce-4533-901e-81e7378f14fa",
-    "sku": "P0030",
-    "name": "Beauty Item 31",
-    "category": "Beauty",
-    "price": 196.58,
-    "margin_pct": 0.22
-  },
-  {
-    "id": "cda5d56b-88fc-4564-860a-8ca683f68f0f",
-    "sku": "P0031",
-    "name": "Toys Item 32",
-    "category": "Toys",
-    "price": 218.15,
-    "margin_pct": 0.58
-  },
-  {
-    "id": "0cac5784-7771-4bee-a41b-07b388358e29",
-    "sku": "P0032",
-    "name": "Clothing Item 33",
-    "category": "Clothing",
-    "price": 137.81,
-    "margin_pct": 0.18
-  },
-  {
-    "id": "ec9700b8-4a6c-4537-9472-6ee74f990845",
-    "sku": "P0033",
-    "name": "Books Item 34",
-    "category": "Books",
-    "price": 36.6,
-    "margin_pct": 0.37
-  },
-  {
-    "id": "342a1514-9a58-444a-bdac-7bfd8129d59c",
-    "sku": "P0034",
-    "name": "HomeGoods Item 35",
-    "category": "HomeGoods",
-    "price": 265.36,
-    "margin_pct": 0.48
-  },
-  {
-    "id": "dcb2fe65-a68e-4588-aec8-5bb1acfd4389",
-    "sku": "P0035",
-    "name": "Clothing Item 36",
-    "category": "Clothing",
-    "price": 10.84,
-    "margin_pct": 0.2
-  },
-  {
-    "id": "fb069d39-8ae4-4941-a00c-5ba731884331",
-    "sku": "P0036",
-    "name": "Beauty Item 37",
-    "category": "Beauty",
-    "price": 202.08,
-    "margin_pct": 0.59
-  },
-  {
-    "id": "2d51ad24-1669-449d-b176-24816334ed56",
-    "sku": "P0037",
-    "name": "Clothing Item 38",
-    "category": "Clothing",
-    "price": 158.14,
-    "margin_pct": 0.49
-  },
-  {
-    "id": "8708ace7-39fe-4dee-af6c-49e001a835e7",
-    "sku": "P0038",
-    "name": "Toys Item 39",
-    "category": "Toys",
-    "price": 260.11,
-    "margin_pct": 0.61
-  },
-  {
-    "id": "94156fab-e2d0-45cb-ac52-28191c4679c1",
-    "sku": "P0039",
-    "name": "Clothing Item 40",
-    "category": "Clothing",
-    "price": 253.94,
-    "margin_pct": 0.43
-  },
-  {
-    "id": "9336dc56-a6f6-45c3-bd27-b0d29d972cd6",
-    "sku": "P0040",
-    "name": "Beauty Item 41",
-    "category": "Beauty",
-    "price": 266.8,
-    "margin_pct": 0.39
-  },
-  {
-    "id": "43d0f64f-6588-40ee-bf72-c37dcf660c0c",
-    "sku": "P0041",
-    "name": "Books Item 42",
-    "category": "Books",
-    "price": 104.02,
-    "margin_pct": 0.47
-  },
-  {
-    "id": "14bf0745-7c2e-470b-81bc-5e3e6c3449f3",
-    "sku": "P0042",
-    "name": "HomeGoods Item 43",
-    "category": "HomeGoods",
-    "price": 39.74,
+    "price": 48.57,
     "margin_pct": 0.42
   },
   {
-    "id": "72001869-8bd1-4185-9511-a90fd22684b2",
-    "sku": "P0043",
-    "name": "Toys Item 44",
-    "category": "Toys",
-    "price": 66.72,
-    "margin_pct": 0.63
+    "id": "d52037f2-b350-463d-b30b-db400ad4d44a",
+    "sku": "P0002",
+    "name": "Books Item 3",
+    "category": "Books",
+    "price": 29.79,
+    "margin_pct": 0.6
   },
   {
-    "id": "de5739c9-c13c-4779-8870-c61644675d46",
-    "sku": "P0044",
-    "name": "Electronics Item 45",
-    "category": "Electronics",
-    "price": 34.62,
-    "margin_pct": 0.41
-  },
-  {
-    "id": "5d211228-6d4f-41b0-bb7b-bfcf864da681",
-    "sku": "P0045",
-    "name": "HomeGoods Item 46",
-    "category": "HomeGoods",
-    "price": 282.81,
-    "margin_pct": 0.63
-  },
-  {
-    "id": "f5cc9cd5-0e07-4fff-bcb3-c56c1c4874ae",
-    "sku": "P0046",
-    "name": "Clothing Item 47",
+    "id": "e8cfc63a-3041-4948-9c6d-4318f95a0926",
+    "sku": "P0003",
+    "name": "Clothing Item 4",
     "category": "Clothing",
-    "price": 89.2,
-    "margin_pct": 0.53
+    "price": 101.37,
+    "margin_pct": 0.29
   },
   {
-    "id": "3ab5ea2e-2eea-42cd-af30-11f09f258cc5",
-    "sku": "P0047",
-    "name": "Fitness Item 48",
+    "id": "529ea0ed-76b8-4a61-9566-489b3adaf52a",
+    "sku": "P0004",
+    "name": "Toys Item 5",
+    "category": "Toys",
+    "price": 14.45,
+    "margin_pct": 0.47
+  },
+  {
+    "id": "b0b08751-bf38-404b-a029-ed8d5bcf2047",
+    "sku": "P0005",
+    "name": "Toys Item 6",
+    "category": "Toys",
+    "price": 196.3,
+    "margin_pct": 0.17
+  },
+  {
+    "id": "a4aa6b02-3549-43b8-bacb-32ddfccba99c",
+    "sku": "P0006",
+    "name": "Fitness Item 7",
     "category": "Fitness",
-    "price": 26.28,
-    "margin_pct": 0.19
+    "price": 32.73,
+    "margin_pct": 0.2
   },
   {
-    "id": "d8ede7cb-cbf4-4579-a226-b152a4558e16",
-    "sku": "P0048",
-    "name": "Beauty Item 49",
+    "id": "0b39fa79-3312-4988-a5f7-65dfb5bb03a9",
+    "sku": "P0007",
+    "name": "Clothing Item 8",
+    "category": "Clothing",
+    "price": 165.4,
+    "margin_pct": 0.62
+  },
+  {
+    "id": "eb893745-94d2-425d-8ee1-6e0bbdfee343",
+    "sku": "P0008",
+    "name": "Toys Item 9",
+    "category": "Toys",
+    "price": 179.49,
+    "margin_pct": 0.59
+  },
+  {
+    "id": "703664eb-fcad-4d9e-be2c-630ccca0982d",
+    "sku": "P0009",
+    "name": "Clothing Item 10",
+    "category": "Clothing",
+    "price": 179.98,
+    "margin_pct": 0.16
+  },
+  {
+    "id": "f887af9d-e2f0-41c1-9f6a-4b61a2a46423",
+    "sku": "P0010",
+    "name": "Fitness Item 11",
+    "category": "Fitness",
+    "price": 140.25,
+    "margin_pct": 0.16
+  },
+  {
+    "id": "5b336f59-b1bb-47a9-ab41-571d820b3b1f",
+    "sku": "P0011",
+    "name": "HomeGoods Item 12",
+    "category": "HomeGoods",
+    "price": 52.67,
+    "margin_pct": 0.25
+  },
+  {
+    "id": "3ddb02c6-5d3f-4ecf-a64b-fbcc7cde2881",
+    "sku": "P0012",
+    "name": "Clothing Item 13",
+    "category": "Clothing",
+    "price": 19.35,
+    "margin_pct": 0.46
+  },
+  {
+    "id": "d3a70a7e-63f2-46f1-b280-71ce3562328f",
+    "sku": "P0013",
+    "name": "Clothing Item 14",
+    "category": "Clothing",
+    "price": 133.04,
+    "margin_pct": 0.22
+  },
+  {
+    "id": "02f7f47f-555e-4cfc-acb5-c5dfdd38fd1b",
+    "sku": "P0014",
+    "name": "Electronics Item 15",
+    "category": "Electronics",
+    "price": 99.43,
+    "margin_pct": 0.31
+  },
+  {
+    "id": "197fe64a-00f7-4d35-b76a-3d3acabdd7bf",
+    "sku": "P0015",
+    "name": "Electronics Item 16",
+    "category": "Electronics",
+    "price": 252.42,
+    "margin_pct": 0.17
+  },
+  {
+    "id": "c1cf56c3-2313-4de3-86d5-1b3a2a764023",
+    "sku": "P0016",
+    "name": "Beauty Item 17",
     "category": "Beauty",
-    "price": 97.9,
+    "price": 182.02,
+    "margin_pct": 0.33
+  },
+  {
+    "id": "b3488b5d-f42d-4ee0-bacc-4411d0d2b8b6",
+    "sku": "P0017",
+    "name": "Beauty Item 18",
+    "category": "Beauty",
+    "price": 193.91,
+    "margin_pct": 0.49
+  },
+  {
+    "id": "e8ddb31c-f36c-46da-88d0-7d108f626f5a",
+    "sku": "P0018",
+    "name": "Books Item 19",
+    "category": "Books",
+    "price": 78.24,
+    "margin_pct": 0.25
+  },
+  {
+    "id": "ee57d427-f6f9-4602-a642-b5068c71f543",
+    "sku": "P0019",
+    "name": "Electronics Item 20",
+    "category": "Electronics",
+    "price": 20.95,
+    "margin_pct": 0.37
+  },
+  {
+    "id": "3ec48302-2905-4c84-b272-c23043b4c920",
+    "sku": "P0020",
+    "name": "HomeGoods Item 21",
+    "category": "HomeGoods",
+    "price": 123.31,
+    "margin_pct": 0.25
+  },
+  {
+    "id": "d7f00986-7598-43c5-a3ab-9d36a102c7e5",
+    "sku": "P0021",
+    "name": "Beauty Item 22",
+    "category": "Beauty",
+    "price": 161.89,
+    "margin_pct": 0.33
+  },
+  {
+    "id": "0969c8d1-e916-4e50-8edd-8be5f0e08fd2",
+    "sku": "P0022",
+    "name": "HomeGoods Item 23",
+    "category": "HomeGoods",
+    "price": 80.56,
+    "margin_pct": 0.44
+  },
+  {
+    "id": "510788d5-8b5e-4b12-bb12-e12257882666",
+    "sku": "P0023",
+    "name": "Books Item 24",
+    "category": "Books",
+    "price": 214.77,
+    "margin_pct": 0.23
+  },
+  {
+    "id": "6299e84c-96f6-4c6a-946f-4daec274af43",
+    "sku": "P0024",
+    "name": "Electronics Item 25",
+    "category": "Electronics",
+    "price": 228.98,
+    "margin_pct": 0.21
+  },
+  {
+    "id": "d72cefda-8974-434e-b0fd-3a4e64ca5921",
+    "sku": "P0025",
+    "name": "Clothing Item 26",
+    "category": "Clothing",
+    "price": 297.4,
+    "margin_pct": 0.22
+  },
+  {
+    "id": "9e79f323-9977-4fe8-a6bd-6f92d2dbd89b",
+    "sku": "P0026",
+    "name": "Toys Item 27",
+    "category": "Toys",
+    "price": 262.38,
+    "margin_pct": 0.55
+  },
+  {
+    "id": "6156747f-044c-49e2-9d91-05ae5c773ba6",
+    "sku": "P0027",
+    "name": "Fitness Item 28",
+    "category": "Fitness",
+    "price": 239.32,
+    "margin_pct": 0.52
+  },
+  {
+    "id": "e95295d4-d623-406c-8cde-d88b723c6966",
+    "sku": "P0028",
+    "name": "HomeGoods Item 29",
+    "category": "HomeGoods",
+    "price": 165.76,
+    "margin_pct": 0.54
+  },
+  {
+    "id": "612a44d5-6022-446a-826d-f53fec5f4576",
+    "sku": "P0029",
+    "name": "Electronics Item 30",
+    "category": "Electronics",
+    "price": 189.85,
+    "margin_pct": 0.51
+  },
+  {
+    "id": "9a51d7ab-dab9-4e35-8751-90a289f5d9d5",
+    "sku": "P0030",
+    "name": "Clothing Item 31",
+    "category": "Clothing",
+    "price": 35.4,
+    "margin_pct": 0.35
+  },
+  {
+    "id": "cfa3f893-66aa-45ba-ac52-8588b1f1713c",
+    "sku": "P0031",
+    "name": "HomeGoods Item 32",
+    "category": "HomeGoods",
+    "price": 288.49,
     "margin_pct": 0.28
   },
   {
-    "id": "521ad828-4620-433d-a110-a241b198d571",
+    "id": "f0f43145-62e1-4505-b75a-c6041114830c",
+    "sku": "P0032",
+    "name": "Beauty Item 33",
+    "category": "Beauty",
+    "price": 256.63,
+    "margin_pct": 0.27
+  },
+  {
+    "id": "67e6fd8b-f0f1-48da-a954-a6ea95d70fb2",
+    "sku": "P0033",
+    "name": "Clothing Item 34",
+    "category": "Clothing",
+    "price": 204.67,
+    "margin_pct": 0.64
+  },
+  {
+    "id": "c60a889a-2da5-4e7a-a1d2-81c4602b6751",
+    "sku": "P0034",
+    "name": "Books Item 35",
+    "category": "Books",
+    "price": 135.18,
+    "margin_pct": 0.34
+  },
+  {
+    "id": "59138402-2791-4eb0-81e7-6cf77134089a",
+    "sku": "P0035",
+    "name": "Beauty Item 36",
+    "category": "Beauty",
+    "price": 169.02,
+    "margin_pct": 0.23
+  },
+  {
+    "id": "56fe3202-d349-4050-8eaa-298b5e8709af",
+    "sku": "P0036",
+    "name": "HomeGoods Item 37",
+    "category": "HomeGoods",
+    "price": 177.44,
+    "margin_pct": 0.59
+  },
+  {
+    "id": "059fb850-a724-43b7-aef3-d64e2359f0dd",
+    "sku": "P0037",
+    "name": "Clothing Item 38",
+    "category": "Clothing",
+    "price": 254.38,
+    "margin_pct": 0.45
+  },
+  {
+    "id": "6b28429f-f5ca-47f6-aeb9-af3ff3f081dc",
+    "sku": "P0038",
+    "name": "Books Item 39",
+    "category": "Books",
+    "price": 115.36,
+    "margin_pct": 0.58
+  },
+  {
+    "id": "8db213f6-60bc-4073-bb63-db368ec74ba2",
+    "sku": "P0039",
+    "name": "HomeGoods Item 40",
+    "category": "HomeGoods",
+    "price": 116.41,
+    "margin_pct": 0.54
+  },
+  {
+    "id": "f7f918d4-181f-41cb-aa73-208dd47fe6ec",
+    "sku": "P0040",
+    "name": "Books Item 41",
+    "category": "Books",
+    "price": 66.4,
+    "margin_pct": 0.29
+  },
+  {
+    "id": "9226a78c-303c-4f7c-b51a-862bbbb022c9",
+    "sku": "P0041",
+    "name": "Books Item 42",
+    "category": "Books",
+    "price": 228.74,
+    "margin_pct": 0.4
+  },
+  {
+    "id": "91592e00-4503-42ca-97e0-92ce0bfcbf33",
+    "sku": "P0042",
+    "name": "Clothing Item 43",
+    "category": "Clothing",
+    "price": 263.33,
+    "margin_pct": 0.33
+  },
+  {
+    "id": "aff0d486-8ab7-4511-abac-b22562738c8b",
+    "sku": "P0043",
+    "name": "Fitness Item 44",
+    "category": "Fitness",
+    "price": 38.69,
+    "margin_pct": 0.46
+  },
+  {
+    "id": "bf5469a4-3734-459e-a115-38ffa8d67acc",
+    "sku": "P0044",
+    "name": "HomeGoods Item 45",
+    "category": "HomeGoods",
+    "price": 82.83,
+    "margin_pct": 0.52
+  },
+  {
+    "id": "32f5ce24-f0e4-4aad-8203-aab000a8deea",
+    "sku": "P0045",
+    "name": "HomeGoods Item 46",
+    "category": "HomeGoods",
+    "price": 75.9,
+    "margin_pct": 0.58
+  },
+  {
+    "id": "f1c45f9d-6f48-423c-939b-3ca3abd7a71c",
+    "sku": "P0046",
+    "name": "HomeGoods Item 47",
+    "category": "HomeGoods",
+    "price": 281.55,
+    "margin_pct": 0.3
+  },
+  {
+    "id": "b240df9f-b9cd-45d0-aaab-9e7c127cfa56",
+    "sku": "P0047",
+    "name": "Books Item 48",
+    "category": "Books",
+    "price": 47.73,
+    "margin_pct": 0.25
+  },
+  {
+    "id": "a8d39c99-90a2-49c1-8784-958beb760313",
+    "sku": "P0048",
+    "name": "Electronics Item 49",
+    "category": "Electronics",
+    "price": 135.71,
+    "margin_pct": 0.39
+  },
+  {
+    "id": "c944e412-52ba-4899-8355-5efe81a19a57",
     "sku": "P0049",
     "name": "Beauty Item 50",
     "category": "Beauty",
-    "price": 50.73,
-    "margin_pct": 0.47
+    "price": 223.19,
+    "margin_pct": 0.44
   }
 ]

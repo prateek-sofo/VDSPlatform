@@ -92,6 +92,24 @@ async def list_connectors(db: AsyncSession = Depends(get_db)):
     return result.scalars().all()
 
 
+@router.get("/{connector_id}/sample")
+async def get_connector_sample(
+    connector_id: str,
+    limit: int = 100,
+    db: AsyncSession = Depends(get_db),
+):
+    """Retrieve a sample of data from a connector for the Data Explorer."""
+    connector = await _get_or_404(db, connector_id)
+    try:
+        impl = ConnectorRegistry.get(connector.connector_type)
+        # Use sync logic but just for sampling
+        result = await impl.sync(connector.config, connector.secret_ref, False, str(uuid.uuid4()))
+        data = result.get("sample_data", [])[:limit]
+        return {"data": data, "columns": list(data[0].keys()) if data else []}
+    except Exception as e:
+        raise HTTPException(500, f"Failed to fetch sample: {str(e)}")
+
+
 @router.get("/{connector_id}", response_model=ConnectorResponse)
 async def get_connector(connector_id: str, db: AsyncSession = Depends(get_db)):
     return await _get_or_404(db, connector_id)
@@ -172,6 +190,8 @@ async def get_sync_runs(connector_id: str, db: AsyncSession = Depends(get_db)):
         select(SyncRun).where(SyncRun.connector_id == connector_id).order_by(SyncRun.started_at.desc()).limit(20)
     )
     return result.scalars().all()
+
+
 
 
 @router.delete("/{connector_id}", status_code=status.HTTP_204_NO_CONTENT)

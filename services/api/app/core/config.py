@@ -20,7 +20,7 @@ class Settings(BaseSettings):
     # LLM providers
     OPENAI_API_KEY: str = ""
     ANTHROPIC_API_KEY: str = ""
-    GEMINI_API_KEY: str = "AIzaSyAFhCe30tUt7ql-H5nPiNYSmjZoAGGe3pE"
+    GEMINI_API_KEY: str = ""
     DEFAULT_LLM_PROVIDER: str = "gemini"  # openai | anthropic | gemini
     DEFAULT_LLM_MODEL: str = "gemini-2.5-flash"
     
@@ -32,7 +32,7 @@ class Settings(BaseSettings):
     }
 
     # CORS
-    CORS_ORIGINS: List[str] = ["http://localhost:3000"]
+    CORS_ORIGINS: List[str] = ["http://localhost:3000", "http://127.0.0.1:3000"]
 
     @field_validator("CORS_ORIGINS", mode="before")
     @classmethod
